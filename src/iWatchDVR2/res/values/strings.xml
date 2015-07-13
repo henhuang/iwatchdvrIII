@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rootPackName">refactor.remote.iWatchDVR</string>
+
+    <string name="back">Back</string>
+    
+    <string name="c_version">Version:</string>
+    <string name="c_build">Build:</string>
+    <string name="versionName">1.7.20131009</string>
+    <string name="buildNumber">8</string>
+    
+    
+    <!-- DVR Information -->
+	<string name="c_name">Name:</string>
+	<string name="c_host">Host:</string>
+	<string name="c_port">Port:</string>
+	<string name="c_user">User:</string>
+	<string name="c_password">Password:　</string>
+	<string name="_new">New</string>
+    <string name="edit">Edit</string>
+    <string name="clear">Clear</string>
+	
+    <!--  Live Panel -->
+    <string name="_1x1">1CH</string>
+    <string name="_2x2">4CH</string>
+	<string name="_8ch">8CH</string>
+	<string name="_3x3">9CH</string>
+	<string name="_4x4">16CH</string>
+	<string name="mainStream">HQ</string>
+	<string name="subStream">LQ</string>
+	<string name="search">Search</string>
+	<string name="control">Control</string>
+	<string name="status">Status</string>
+	
+	<!-- Play Panel -->
+	<string name="rewind">Rewind</string>
+    <string name="pause">Pause</string>
+	<string name="forward">Forward</string>
+	<string name="step">Step</string>
+	<string name="division">Division</string>
+	<string name="backup">Backup</string>
+	<string name="seek">Seek</string>
+	
+	<!-- Backup -->
+	<string name="markIn">Mark In</string>
+	<string name="markOut">Mark Out</string>
+	<string name="goBackup">Go Backup</string>
+	
+	<!-- Backup List -->
+	<string name="backupFiles">Backup Files</string>
+	<string name="dvr">DVR</string>
+	<string name="about">About</string>
+	<string name="msgNoStorage">No storage</string>
+
+	<!-- PTZ Panel -->
+	<string name="zoomIn">Zoom+</string>
+	<string name="zoomOut">Zoom-</string>
+	<string name="irisOpen">Iris+</string>
+	<string name="irisClose">Iris-</string>
+	<string name="focusIn">Focus+</string>
+	<string name="focusOut">Focus-</string>
+	<string name="setPreset">Set Preset</string>
+	<string name="goPreset">Go Preset</string>
+
+	<!-- Relay Panel -->
+	<string name="relay0">Relay 01</string>
+	<string name="relay1">Relay 02</string>
+	<string name="relay2">Relay 03</string>
+	<string name="relay3">Relay 04</string>
+	
+	<!-- Relay -->
+	<string name="_1sec">1 Sec.</string>
+	<string name="_3sec">3 Sec.</string>
+	<string name="_5sec">5 Sec.</string>
+	<string name="_8sec">8 Sec.</string>
+	<string name="no">N.O.</string>
+	<string name="nc">N.C.</string>
+	<string name="auto">Auto</string>
+	
+	<!-- Event Search -->
+	<string name="channels">Channels</string>
+
+	<!-- Zoom -->
+	<string name="zoom">Zoom</string>
+	
+	<!-- Time Search -->
+	<string name="timeSearch">Time Search</string>
+	
+	<!-- Action Bar -->
+	<string name="live">Live</string>
+	<string name="play">Play</string>
+	<string name="done">Done</string>
+	<string name="cancel">Cancel</string>
+	<string name="add">Add</string>
+	<string name="delete">Delete</string>
+	<string name="save">Save</string>
+	
+	<!-- alert -->
+	<string name="error">Error</string>
+	<string name="ok">OK</string>
+	<string name="msg_empty_dvr_info_field">Host and port and user and password field can\'t be empty.</string>
+	
+	<!-- popup channel-->
+	<string name="ch0">ch1</string>
+	<string name="ch1">ch2</string>
+	<string name="ch2">ch3</string>
+	<string name="ch3">ch4</string>
+	<string name="ch4">ch5</string>
+	<string name="ch5">ch6</string>
+	<string name="ch6">ch7</string>
+	<string name="ch7">ch8</string>
+	<string name="ch8">ch9</string>
+	<string name="ch9">ch10</string>
+	<string name="ch10">ch11</string>
+	<string name="ch11">ch12</string>
+	<string name="ch12">ch13</string>
+	<string name="ch13">ch14</string>
+	<string name="ch14">ch15</string>
+	<string name="ch15">ch16</string>
+	<string name="ch16">ch17</string>
+	<string name="ch17">ch18</string>
+	<string name="ch18">ch19</string>
+	<string name="ch19">ch20</string>
+	<string name="ch20">ch21</string>
+	<string name="ch21">ch22</string>
+	<string name="ch22">ch23</string>
+	<string name="ch23">ch24</string>
+	<string name="ch24">ch25</string>
+	<string name="ch25">ch26</string>
+	<string name="ch26">ch27</string>
+	<string name="ch27">ch28</string>
+	<string name="ch28">ch29</string>
+	<string name="ch29">ch30</string>
+	<string name="ch30">ch31</string>
+	<string name="ch31">ch32</string>
+	
+	<string name="_2x2_ch0">ch1-ch4</string>
+	<string name="_2x2_ch1">ch5-ch8</string>
+	<string name="_2x2_ch2">ch9-ch12</string>
+	<string name="_2x2_ch3">ch13-ch16</string>
+	<string name="_2x2_ch4">ch17-ch20</string>
+	<string name="_2x2_ch5">ch21-ch24</string>
+	<string name="_2x2_ch6">ch25-ch28</string>
+	<string name="_2x2_ch7">ch29-ch32</string>
+	<string name="_3x3_ch0">ch1-ch8</string>
+	<string name="_3x3_ch1">ch9-ch16</string>
+	<string name="_3x3_ch2">ch17-ch24</string>
+	<string name="_3x3_ch3">ch25-ch32</string>
+	<string name="_4x4_ch0">ch1-ch16</string>
+	<string name="_4x4_ch1">ch17-ch32</string>
+	<string name="_3x3_9ch_ch0">ch1-ch9</string>
+	<string name="_3x3_10ch_ch0">ch1-ch8</string>
+    <string name="_3x3_10ch_ch1">ch9-ch10</string>
+	<string name="_2x2_10ch_ch0">ch1-ch4</string>
+    <string name="_2x2_10ch_ch1">ch5-ch8</string>
+    <string name="_2x2_10ch_ch2">ch9-ch10</string>
+	<string name="_4x4_10ch_ch0">ch1-ch10</string>
+
+
+	<!-- popup control -->
+	<string name="relay">Relay</string>
+	<string name="ptz">PTZ</string>
+	<string name="notify">Notify</string>
+	<string name="unnotify">Unnotify</string>
+	
+	<!-- popup stream -->
+	<string name="mute">Mute</string>
+	<string name="unmute">Unmute</string>
+	<string name="muteoff">Mute off</string>
+	
+	<!-- backup -->
+	<string name="duration">Duration</string>
+	<string name="startTime">Start Time</string>
+	<string name="endTime">End Time</string>
+	<string name="minutes">minute(s)</string>
+	<string name="backupChannels">Backup Channel</string>
+	<string name="backupSpace">Backup Space</string>
+	<string name="systemFreeSpace">System Free Space</string>
+	<string name="requiredSpace">Required Space</string>
+	<string name="totolTime">Total Time</string>
+	<string name="download">Download</string>
+	<string name="calculate">Calculate</string>
+	<string name="noStorage">No external storage !</string>
+	
+	<!-- log search -->
+	<string name="logSearch">Log Search</string>
+	<string name="logSearchResult">Log Search Result</string>
+	<string name="range">Range</string>
+	<string name="startTimeEnable">Start Time Enable</string>
+	<string name="endTimeEnable">End Time Enable</string>
+	<string name="filter">Filter</string>
+	<string name="logTypes">Log Types</string>
+	
+	<string name="all">All</string>
+	<string name="allLogTypes">All Log Types</string>
+	<string name="powerOn">Power On</string>
+	<string name="channelRecord">Channel Record</string>
+	<string name="videoLoss">Video Loss</string>
+	<string name="sensor">Sensor</string>
+	<string name="videoMotion">Video Motion</string>
+	<string name="userLogin">User Login</string>
+	<string name="userLogout">User Logout</string>
+	<string name="exportConfiguration">Export Configuration</string>
+	<string name="resetConfiguration">Reset Configuration</string>
+	<string name="importConfiguration">Import Configuration</string>
+	<string name="exportLogs">Export Logs</string>
+	<string name="clearLogs">Clear Logs</string>
+	<string name="changeDateTime">Chage Date/Timee</string>
+	<string name="chageRecordConfig">Chage Record Config</string>
+	<string name="hddFormat">HDD Format</string>
+	<string name="setHddRecordFlag">Set HDD Record Flag</string>
+	<string name="systemUpgrade">System Upgrade</string>
+	<string name="setAdminPassword">Set Admin Password</string>
+	<string name="noHdd">No HDD</string>
+	<string name="hddFull">HDD Full</string>
+	<string name="hddError">HDD Error</string>
+	<string name="mcuError">MCU Error</string>
+	<string name="systemError">System Error</string>
+	<string name="writeError">Write Error</string>
+	<string name="reboot">Reboot</string>
+
+	<!-- time search -->
+	<string name="noRecord">No Record</string>
+	
+	<!-- widget calendar -->
+	<string name="timeFormat">yyyy/MM/dd HH:mm:ss</string>
+	
+	<!-- popup message -->
+	<string name="pleaseWaiting">Please waiting...</string>
+	<string name="connetFailed">Connet failed, please check network or user/password....</string>
+	<string name="noExternalStorage">No SD card</string>
+	<string name="confirmDeleteFile">Delete this file?</string>
+	<string name="confirmDeleteRecord">Delete this record?</string>
+	<string name="deleteFailed">Delete file Failed</string>
+	<string name="downloading">Downloading....</string>
+	<string name="downloadDone">Download completed</string>
+	<string name="notification">Notification</string>
+	<string name="connectTo">Connect to</string>
+	<string name="noRecordedData">No recorded data</string>
+	<string name="relaySwitchFailed">Relay switch failed....</string>
+	<string name="relayActivationFailed">Relay activation failed....</string>
+	<string name="errorOccured">Error Occured</string>
+	<string name="exceedRecordTime">Exceed record time</string>
+</resources>

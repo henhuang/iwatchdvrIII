@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView 
+        android:text="@string/range"
+        style="@style/PreferenceHeader" />
+    
+    <!-- startTime -->
+    <LinearLayout android:id="@+id/startTime"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:background="@android:drawable/list_selector_background"
+        android:descendantFocusability="blocksDescendants">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingLeft="6dp"
+            android:orientation="vertical">
+            <TextView  
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/startTime"
+                android:singleLine="true"
+                android:ellipsize="marquee" />
+        
+            <TextView android:id="@+id/startTimeValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:gravity="center_vertical"
+                android:text="00:00:00"/>
+        </LinearLayout>
+        <CheckBox android:id="@+id/startTimeEnable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginRight="20dip" />
+    </LinearLayout>
+
+    
+    <!-- endTime -->
+    <LinearLayout android:id="@+id/endTime"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:background="@android:drawable/list_selector_background"
+        android:descendantFocusability="blocksDescendants">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="6dp"
+            android:layout_weight="1">
+            <TextView  
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/endTime"
+                android:singleLine="true"
+                android:ellipsize="marquee" />
+        
+            <TextView android:id="@+id/endTimeValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:gravity="center_vertical"
+                android:text="00:00:00"/>
+        </LinearLayout>
+        <CheckBox android:id="@+id/endTimeEnable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginRight="20dip" />        
+    </LinearLayout>
+    
+    <!-- filter -->
+    <TextView 
+        android:text="@string/filter"
+        style="@style/PreferenceHeader" />
+         
+    <LinearLayout android:id="@+id/logtypes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingRight="?android:attr/scrollbarSize"
+        android:background="@android:drawable/list_selector_background"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="6dp"
+        android:clickable="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:text="@string/logTypes"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/channels"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingRight="?android:attr/scrollbarSize"
+        android:background="@android:drawable/list_selector_background"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="6dp"
+        android:clickable="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:text="@string/channels"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <Button android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:paddingTop="20sp"
+        android:paddingBottom="20sp"
+        android:text="@string/search" />
+</LinearLayout>

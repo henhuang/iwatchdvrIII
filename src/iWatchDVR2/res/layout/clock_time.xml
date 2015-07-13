@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:iwatch="http://remote.iwatchdvr.com"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:layout_marginTop="12dp"
+    android:orientation="vertical">
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+      
+        <remote.iWatchDVR.widget.Wheel.WheelView android:id="@+id/clock_hour"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            iwatch:visibleItem="5" />
+        <TextView 
+        	android:layout_height="fill_parent"
+           	android:layout_width="wrap_content"
+           	android:gravity="center"
+           	android:padding="10sp"
+           	android:textSize="20sp"
+           	android:text=":" />
+           	
+        <remote.iWatchDVR.widget.Wheel.WheelView android:id="@+id/clock_min"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            iwatch:visibleItem="5" />
+        
+        <TextView 
+        	android:layout_height="fill_parent"
+           	android:layout_width="wrap_content"
+           	android:gravity="center"
+           	android:padding="10sp"
+           	android:textSize="20sp"
+           	android:text=":" />
+           	   	
+        <remote.iWatchDVR.widget.Wheel.WheelView android:id="@+id/clock_sec"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            iwatch:visibleItem="5" />    
+    </LinearLayout>
+</LinearLayout>

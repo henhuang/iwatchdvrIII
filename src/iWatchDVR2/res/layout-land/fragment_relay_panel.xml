@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center_horizontal|bottom" 
+    android:background="@drawable/transparent_gray"
+    android:id="@+id/panel">
+
+    <TextView android:id="@+id/_1x1"
+        android:text="@string/_1x1"
+        style="@style/ToolbarButton"
+        android:drawableTop="@drawable/selector_button_1x1" />
+    
+    <TextView android:id="@+id/_2x2"
+        android:text="@string/_2x2"
+        style="@style/ToolbarButton"
+        android:drawableTop="@drawable/selector_button_2x2" />
+       
+    <TextView android:id="@+id/_3x3"
+        android:text="@string/_3x3"
+        style="@style/ToolbarButton"
+        android:drawableTop="@drawable/selector_button_3x3" />
+       
+    <TextView android:id="@+id/_4x4"
+        android:text="@string/_4x4"
+        style="@style/ToolbarButton"
+        android:drawableTop="@drawable/selector_button_4x4" />
+
+    <TextView android:id="@+id/relay0"
+        android:text="@string/relay0"
+        style="@style/ToolbarButton"
+        android:drawableTop="@drawable/selector_button_relay" />
+       
+    <TextView android:id="@+id/relay1"
+        android:text="@string/relay1"
+        style="@style/ToolbarButton"
+        android:drawableTop="@drawable/selector_button_relay" />
+    
+    <TextView android:id="@+id/relay2"
+        android:text="@string/relay2"
+        style="@style/ToolbarButton"
+        android:drawableTop="@drawable/selector_button_relay" />
+    
+    <TextView android:id="@+id/relay3"
+        android:text="@string/relay3"
+        style="@style/ToolbarButton"
+        android:drawableTop="@drawable/selector_button_relay" />
+
+</LinearLayout>

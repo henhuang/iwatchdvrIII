@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:46
+-keep class com.google.zxing.client.androidtest.BenchmarkActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class com.google.zxing.client.androidtest.ZXingTestActivity { <init>(...); }
+

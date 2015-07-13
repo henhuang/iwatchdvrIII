@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <refactor.remote.iWatchDVR.application.CanvasView android:id="@+id/canvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--  <RelativeLayout android:id="@+id/visualRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">-->
+
+	    <GridView android:id="@+id/visual"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:isScrollContainer="false"/>
+    <!--  </RelativeLayout>-->
+    
+</FrameLayout>

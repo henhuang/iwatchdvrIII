@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Day" parent="@android:style/TextAppearance.Widget.Button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginTop">1dip</item>
+        <item name="android:layout_marginLeft">1dip</item>
+        <item name="android:paddingBottom">2sp</item>
+        <item name="android:paddingRight">8sp</item>
+        <item name="android:gravity">right|bottom</item>
+        <item name="android:textColor">#ffcccc</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/selector_calendar</item>
+	</style>
+	
+	<style name="WeekTitle" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">2sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#4d4d4d</item>
+	</style>
+	
+	<style name="DayRow">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/darker_gray</item>
+        <item name="android:layout_weight">1</item>
+	</style>
+
+	<style name="Year" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:padding">10sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#cccccc</item>
+	</style>
+	
+</resources>

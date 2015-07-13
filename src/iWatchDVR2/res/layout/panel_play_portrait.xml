@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <LinearLayout
+	    android:layout_weight="1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">    
+	   <TextView 
+	       android:id="@+id/button_1x1"
+	       android:text="@string/_1x1"
+	       style="@style/ToolbarButton"
+	       android:drawableTop="@drawable/selector_button_1x1"
+	   />
+	   <TextView 
+	       android:id="@+id/button_2x2"
+	       android:text="@string/_2x2"
+	       style="@style/ToolbarButton"
+	       android:drawableTop="@drawable/selector_button_2x2"
+	   />
+	   <TextView 
+	       android:id="@+id/button_3x3"
+	       android:text="@string/_3x3"
+	       style="@style/ToolbarButton"
+	       android:drawableTop="@drawable/selector_button_3x3"
+	   />
+	   <TextView 
+	       android:id="@+id/button_4x4"
+	       android:text="@string/_4x4"
+	       style="@style/ToolbarButton"
+	       android:drawableTop="@drawable/selector_button_4x4"
+	   />
+   </LinearLayout>
+   <LinearLayout
+	    android:layout_weight="1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+	   <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:layout_width="wrap_content"
+    		android:layout_height="match_parent"
+    		android:layout_weight="1">
+	   		<TextView 
+	       		android:id="@+id/button_mainStream"
+	       		android:text="@string/mainStream"
+	       		style="@style/ToolbarButton"
+	       		android:drawableTop="@drawable/selector_button_mainstream" />
+	   		<TextView 
+	       		android:id="@+id/button_subStream"
+	       		android:text="@string/subStream"
+	       		style="@style/ToolbarButton"
+	       		android:drawableTop="@drawable/selector_button_substream" />
+	   </RelativeLayout>
+	   <TextView 
+	       android:id="@+id/button_search"
+	       android:text="@string/search"
+	       style="@style/ToolbarButton"
+	       android:drawableTop="@drawable/selector_button_pop_search"
+	   />
+	   <TextView 
+	       android:id="@+id/button_control"
+	       android:text="@string/control"
+	       style="@style/ToolbarButton"
+	       android:drawableTop="@drawable/selector_button_pop_controls"
+	   />
+	   <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:layout_width="wrap_content"
+    		android:layout_height="match_parent"
+    		android:layout_weight="1">
+	   		<TextView 
+	    	   android:id="@+id/button_status"
+	    	   android:text="@string/status"
+	    	   style="@style/ToolbarButton"
+	    	   android:drawableTop="@drawable/selector_button_status" />
+	   		<TextView 
+	    	   android:id="@+id/button_status_event"
+	    	   android:text="@string/status"
+	    	   style="@style/ToolbarButton"
+	    	   android:drawableTop="@drawable/selector_button_status_event" />
+	   
+	   </RelativeLayout>
+   </LinearLayout>
+</LinearLayout>

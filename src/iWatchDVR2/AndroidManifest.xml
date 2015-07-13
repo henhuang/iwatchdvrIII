@@ -1,0 +1,95 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="refactor.remote.iWatchDVR"
+    android:versionCode="1"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <permission android:name="refactor.remote.iWatchDVR.remote.iWatchDVR.permission.C2D_MESSAGE" 
+        android:protectionLevel="signature" />
+    <uses-permission android:name="refactor.remote.iWatchDVR.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    
+    <!-- <uses-feature android:glEsVersion="0x00020000" android:required="true" /> -->
+    
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="Retactor"
+        android:theme="@style/Theme.AppCompat"
+        android:name="refactor.remote.iWatchDVR.application.RemoteDVRApplication">
+
+        <activity
+            android:label="Retactor"
+            android:name="refactor.remote.iWatchDVR.RemoteDVRActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:alwaysRetainTaskState="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>  
+        </activity>
+
+        <activity
+            android:name="refactor.remote.iWatchDVR.FunctionActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTop"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="refactor.remote.iWatchDVR.TimeSearchActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTop"/>
+        
+        <activity
+            android:name="refactor.remote.iWatchDVR.LogSearchActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTop"/>
+        
+        <activity
+            android:name="refactor.remote.iWatchDVR.LogSearchResultActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTop"/>
+
+        <activity
+            android:name="refactor.remote.iWatchDVR.PlayActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTop"/>
+
+        
+        <!-- TODO
+        <receiver android:name="com.google.android.gcm.GCMBroadcastReceiver"
+                  android:permission="com.google.android.c2dm.permission.SEND" >
+
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="@string/oemPackage" />
+            </intent-filter>
+        </receiver>
+        <service android:name="remote.iWatchDVR.GCMIntentService" />
+         -->
+         
+        <provider android:name="@string/providerName" android:authorities="@string/providerAuthority" /> 
+
+    </application>
+</manifest>

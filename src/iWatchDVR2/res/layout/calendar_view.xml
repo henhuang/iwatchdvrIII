@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:paddingBottom="5sp"
+	android:orientation="vertical">
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:id="@+id/calendar_navigation"
+		android:gravity="center"> 
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:id="@+id/calendar_previous"
+			android:text=" &lt; " />
+		<TextView
+			android:layout_width="wrap_content"
+			android:gravity="center"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:id="@+id/calendar_now" 
+			style="@android:style/TextAppearance.Medium" />
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:id="@+id/calendar_next"
+			android:text=" &gt; " />
+	</LinearLayout>
+
+	<TableLayout
+		android:id="@+id/calendar_days"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:stretchColumns="*"
+		android:layout_weight="1"
+		android:visibility="gone">
+		<TableRow>
+			<TextView style="@style/WeekTitle" />
+			<TextView style="@style/WeekTitle" />
+			<TextView style="@style/WeekTitle" />
+			<TextView style="@style/WeekTitle" />
+			<TextView style="@style/WeekTitle" />
+			<TextView style="@style/WeekTitle" />
+			<TextView style="@style/WeekTitle" />
+		</TableRow>
+		<TableRow style="@style/DayRow">
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+		</TableRow>
+		<TableRow style="@style/DayRow">
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+		</TableRow>
+		<TableRow style="@style/DayRow">
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+		</TableRow>
+		<TableRow style="@style/DayRow">
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+		</TableRow>
+		<TableRow style="@style/DayRow">
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+		</TableRow>
+		<TableRow style="@style/DayRow">
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day" />
+			<TextView style="@style/Day"  />
+		</TableRow>
+	</TableLayout>
+		
+</LinearLayout>

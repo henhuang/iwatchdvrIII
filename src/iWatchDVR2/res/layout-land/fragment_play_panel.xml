@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/transparent_gray">
+
+    <TextView android:id="@+id/rewind"
+		android:text="@string/rewind"
+	    style="@style/ToolbarButton"
+	    android:drawableTop="@drawable/selector_button_rewind" />
+    
+	<RelativeLayout 
+    	android:layout_width="wrap_content"
+    	android:layout_height="match_parent"
+    	android:layout_weight="1">
+	   	<TextView 
+		    android:id="@+id/pause"
+		    android:text="@string/pause"
+		    style="@style/ToolbarButton"
+		    android:drawableTop="@drawable/selector_button_pause" />
+	   
+	   	<TextView 
+		    android:id="@+id/play"
+		    android:text="@string/play"
+		    style="@style/ToolbarButton"
+		    android:drawableTop="@drawable/selector_button_play"
+			android:visibility="invisible"/>
+	</RelativeLayout>
+	   
+	<TextView 
+		android:id="@+id/forward"
+		android:text="@string/forward"
+		style="@style/ToolbarButton"
+		android:drawableTop="@drawable/selector_button_forward" />
+	   
+	<TextView 
+		android:id="@+id/step"
+		android:text="@string/step"
+		style="@style/ToolbarButton"
+		android:drawableTop="@drawable/selector_button_step" />
+
+    <TextView 
+		android:id="@+id/mainStream"
+		android:text="@string/mainStream"
+		style="@style/ToolbarButton"
+		android:enabled="false"
+		android:drawableTop="@drawable/selector_button_mainstream" />
+
+	<TextView 
+		android:id="@+id/division"
+		android:text="@string/division"
+		style="@style/ToolbarButton"
+		android:drawableTop="@drawable/selector_button_division" />
+	   
+	<TextView 
+		android:id="@+id/backup"
+		android:text="@string/backup"
+		style="@style/ToolbarButton"
+		android:drawableTop="@drawable/selector_button_backup" />
+
+	<TextView 
+		 android:id="@+id/seek"
+		 android:text="@string/seek"
+		 style="@style/ToolbarButton"
+		 android:drawableTop="@drawable/selector_button_seek"
+		 android:enabled="false" />
+
+</LinearLayout>

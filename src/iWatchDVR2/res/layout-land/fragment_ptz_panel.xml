@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center_horizontal|bottom">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/transparent_gray">
+
+            <LinearLayout style="@style/PTZLinearLayoutButton4Landscape">
+                <TextView android:id="@+id/goPreset"
+                    android:text="@string/goPreset"
+                    style="@style/ToolbarButton2"
+                    android:drawableTop="@drawable/selector_button_go_preset" />
+    
+            </LinearLayout>
+            <LinearLayout style="@style/PTZLinearLayoutButton4Landscape">
+                <TextView android:id="@+id/irisOpen"
+                    android:text="@string/irisOpen"
+                    style="@style/ToolbarButton2"
+                    android:drawableTop="@drawable/selector_button_iris_open" />
+            </LinearLayout>
+            <LinearLayout style="@style/PTZLinearLayoutButton4Landscape">
+                <TextView android:id="@+id/focusIn"
+                    android:text="@string/focusIn"
+                    style="@style/ToolbarButton2"
+                    android:drawableTop="@drawable/selector_button_focusin" />
+            </LinearLayout>
+            <LinearLayout style="@style/PTZLinearLayoutButton4Landscape">
+                <TextView android:id="@+id/zoomIn"
+                    android:text="@string/zoomIn"
+                    style="@style/ToolbarButton2"
+                    android:drawableTop="@drawable/selector_button_zoomin" />
+            </LinearLayout>
+        </LinearLayout> 
+        
+        <!-- fake layout for space -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" />
+        <!--===================================-->
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/transparent_gray">
+            <LinearLayout style="@style/PTZLinearLayoutButton4Landscape">
+                <TextView android:id="@+id/setPreset"
+                    android:text="@string/setPreset"
+                    style="@style/ToolbarButton2"
+                    android:drawableTop="@drawable/selector_button_set_preset" />
+    
+            </LinearLayout>
+            <LinearLayout style="@style/PTZLinearLayoutButton4Landscape">
+                <TextView android:id="@+id/irisClose"
+                    android:text="@string/irisClose"
+                    style="@style/ToolbarButton2"
+                    android:drawableTop="@drawable/selector_button_iris_close" />
+            </LinearLayout>
+            <LinearLayout style="@style/PTZLinearLayoutButton4Landscape">
+                <TextView android:id="@+id/focusOut"
+                    android:text="@string/focusOut"
+                    style="@style/ToolbarButton2"
+                    android:drawableTop="@drawable/selector_button_focusout" />
+            </LinearLayout>
+            <LinearLayout style="@style/PTZLinearLayoutButton4Landscape">
+                <TextView android:id="@+id/zoomOut"
+                    android:text="@string/zoomOut"
+                    style="@style/ToolbarButton2"
+                    android:drawableTop="@drawable/selector_button_zoomout" />
+            </LinearLayout>
+        </LinearLayout> 
+</LinearLayout>     

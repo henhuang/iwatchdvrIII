@@ -1,0 +1,1363 @@
+Buildfile: /home/rd/share/autobuild_android-apk_11298/iWatchDVR2/build.xml
+
+pre-setup:
+     [echo] ========================================
+     [echo] Deleting output directories...
+     [echo] ========================================
+
+build-setup:
+     [echo] ========================================
+     [echo] Creating output directories...
+    [mkdir] Created dir: /home/rd/share/autobuild_android-apk_11298/iWatchDVR2/bin
+    [mkdir] Created dir: /home/rd/share/autobuild_android-apk_11298/iWatchDVR2/bin/classes
+     [echo] ========================================
+
+compile-resource:
+     [echo] ========================================
+     [echo] Compiling R.java....
+     [echo] ========================================
+    [javac] /home/rd/share/autobuild_android-apk_11298/iWatchDVR2/build.xml:136: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 3 source files to /home/rd/share/autobuild_android-apk_11298/iWatchDVR2/bin/classes
+    [javac] 
+    [javac]           WARNING
+    [javac] 
+    [javac] The -source switch defaults to 1.7 in JDK 1.7.
+    [javac] If you specify -target 1.5 you now must also specify -source 1.5.
+    [javac] Ant will implicitly add -source 1.5 for you.  Please change your build file.
+
+compile-source:
+     [echo] ========================================
+     [echo] Compiling *.java else....
+     [echo] ========================================
+    [javac] /home/rd/share/autobuild_android-apk_11298/iWatchDVR2/build.xml:146: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 132 source files to /home/rd/share/autobuild_android-apk_11298/iWatchDVR2/bin/classes
+    [javac] 
+    [javac]           WARNING
+    [javac] 
+    [javac] The -source switch defaults to 1.7 in JDK 1.7.
+    [javac] If you specify -target 1.5 you now must also specify -source 1.5.
+    [javac] Ant will implicitly add -source 1.5 for you.  Please change your build file.
+    [javac] Note: /home/rd/share/autobuild_android-apk_11298/iWatchDVR2/src/remote/iWatchDVR/ZoomActivity.java uses or overrides a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+pack-jar:
+     [echo] ========================================
+     [echo] Creating library output jar file....
+     [echo] ========================================
+      [jar] Building jar: /home/rd/share/autobuild_android-apk_11298/iWatchDVR2/bin/classes.jar
+
+gen-dex:
+     [echo] ========================================
+     [echo] Generating dalvik bytecodes....
+     [echo] ========================================
+
+package-resources:
+     [echo] ========================================
+     [echo] Packaging resources....
+     [echo] ========================================
+
+pack-apk:
+     [echo] ========================================
+     [echo] Packaging unsigned apk....
+     [echo] ========================================
+     [exec] 
+     [exec] THIS TOOL IS DEPRECATED. See --help for more information.
+     [exec] 
+
+sign-apk:
+     [echo] ========================================
+     [echo] Signing apk....
+     [echo] ========================================
+     [exec]    adding: META-INF/MANIFEST.MF
+     [exec]    adding: META-INF/ICATCH.SF
+     [exec]    adding: META-INF/ICATCH.RSA
+     [exec]   signing: res/anim/disappear.xml
+     [exec]   signing: res/anim/grow_from_bottom.xml
+     [exec]   signing: res/anim/grow_from_bottomleft_to_topright.xml
+     [exec]   signing: res/anim/grow_from_bottomright_to_topleft.xml
+     [exec]   signing: res/anim/grow_from_top.xml
+     [exec]   signing: res/anim/grow_from_topleft_to_bottomright.xml
+     [exec]   signing: res/anim/grow_from_topright_to_bottomleft.xml
+     [exec]   signing: res/anim/pump_bottom.xml
+     [exec]   signing: res/anim/pump_top.xml
+     [exec]   signing: res/anim/rail.xml
+     [exec]   signing: res/anim/shrink_from_bottom.xml
+     [exec]   signing: res/anim/shrink_from_bottomleft_to_topright.xml
+     [exec]   signing: res/anim/shrink_from_bottomright_to_topleft.xml
+     [exec]   signing: res/anim/shrink_from_top.xml
+     [exec]   signing: res/anim/shrink_from_topleft_to_bottomright.xml
+     [exec]   signing: res/anim/shrink_from_topright_to_bottomleft.xml
+     [exec]   signing: res/drawable/action_item_btn.xml
+     [exec]   signing: res/drawable/action_item_selected.9.png
+     [exec]   signing: res/drawable/arrow_down.png
+     [exec]   signing: res/drawable/arrow_up.png
+     [exec]   signing: res/drawable/background.9.png
+     [exec]   signing: res/drawable/background_wheel.xml
+     [exec]   signing: res/drawable/ic_launcher.png
+     [exec]   signing: res/drawable/point_center.png
+     [exec]   signing: res/drawable/popup.9.png
+     [exec]   signing: res/drawable/rect.9.png
+     [exec]   signing: res/drawable/rect_center.png
+     [exec]   signing: res/drawable/selector_action_item.xml
+     [exec]   signing: res/drawable/selector_button_1sec.xml
+     [exec]   signing: res/drawable/selector_button_1x1.xml
+     [exec]   signing: res/drawable/selector_button_1x1_ptz.xml
+     [exec]   signing: res/drawable/selector_button_2x2.xml
+     [exec]   signing: res/drawable/selector_button_3sec.xml
+     [exec]   signing: res/drawable/selector_button_3x3.xml
+     [exec]   signing: res/drawable/selector_button_4x4.xml
+     [exec]   signing: res/drawable/selector_button_5sec.xml
+     [exec]   signing: res/drawable/selector_button_8sec.xml
+     [exec]   signing: res/drawable/selector_button_backup.xml
+     [exec]   signing: res/drawable/selector_button_division.xml
+     [exec]   signing: res/drawable/selector_button_eventplay.xml
+     [exec]   signing: res/drawable/selector_button_focusin.xml
+     [exec]   signing: res/drawable/selector_button_focusout.xml
+     [exec]   signing: res/drawable/selector_button_forward.xml
+     [exec]   signing: res/drawable/selector_button_go_preset.xml
+     [exec]   signing: res/drawable/selector_button_gobackup.xml
+     [exec]   signing: res/drawable/selector_button_iris_close.xml
+     [exec]   signing: res/drawable/selector_button_iris_open.xml
+     [exec]   signing: res/drawable/selector_button_mainstream.xml
+     [exec]   signing: res/drawable/selector_button_markin.xml
+     [exec]   signing: res/drawable/selector_button_markout.xml
+     [exec]   signing: res/drawable/selector_button_motion.xml
+     [exec]   signing: res/drawable/selector_button_muteoff.xml
+     [exec]   signing: res/drawable/selector_button_muteon.xml
+     [exec]   signing: res/drawable/selector_button_nc.xml
+     [exec]   signing: res/drawable/selector_button_no.xml
+     [exec]   signing: res/drawable/selector_button_notifyoff.xml
+     [exec]   signing: res/drawable/selector_button_notifyon.xml
+     [exec]   signing: res/drawable/selector_button_pause.xml
+     [exec]   signing: res/drawable/selector_button_play.xml
+     [exec]   signing: res/drawable/selector_button_pop_controls.xml
+     [exec]   signing: res/drawable/selector_button_pop_search.xml
+     [exec]   signing: res/drawable/selector_button_ptz.xml
+     [exec]   signing: res/drawable/selector_button_relay.xml
+     [exec]   signing: res/drawable/selector_button_relayauto.xml
+     [exec]   signing: res/drawable/selector_button_rewind.xml
+     [exec]   signing: res/drawable/selector_button_seek.xml
+     [exec]   signing: res/drawable/selector_button_set_preset.xml
+     [exec]   signing: res/drawable/selector_button_status.xml
+     [exec]   signing: res/drawable/selector_button_status_event.xml
+     [exec]   signing: res/drawable/selector_button_step.xml
+     [exec]   signing: res/drawable/selector_button_substream.xml
+     [exec]   signing: res/drawable/selector_button_time_search.xml
+     [exec]   signing: res/drawable/selector_button_videoloss.xml
+     [exec]   signing: res/drawable/selector_button_zoom.xml
+     [exec]   signing: res/drawable/selector_button_zoomin.xml
+     [exec]   signing: res/drawable/selector_button_zoomout.xml
+     [exec]   signing: res/drawable/selector_calendar.xml
+     [exec]   signing: res/drawable/selector_calendar_event.xml
+     [exec]   signing: res/drawable/selector_calendar_mark.xml
+     [exec]   signing: res/drawable/shape_wheel.xml
+     [exec]   signing: res/layout/calendar_view.xml
+     [exec]   signing: res/layout/clock.xml
+     [exec]   signing: res/layout/clock_time.xml
+     [exec]   signing: res/layout/dialog_1x1.xml
+     [exec]   signing: res/layout/dialog_backup_datetime.xml
+     [exec]   signing: res/layout/dialog_divide.xml
+     [exec]   signing: res/layout/dialog_divide_gridcontent.xml
+     [exec]   signing: res/layout/dialog_ptz_preset.xml
+     [exec]   signing: res/layout/fragment_stack.xml
+     [exec]   signing: res/layout/fragment_tabs_pager.xml
+     [exec]   signing: res/layout/gridview_item_gopreset.xml
+     [exec]   signing: res/layout/gridview_item_setpreset.xml
+     [exec]   signing: res/layout/listiview_row_login.xml
+     [exec]   signing: res/layout/listview_row_backup.xml
+     [exec]   signing: res/layout/listview_row_backup_channels.xml
+     [exec]   signing: res/layout/listview_row_backup_files.xml
+     [exec]   signing: res/layout/listview_row_backup_folder.xml
+     [exec]   signing: res/layout/listview_row_log.xml
+     [exec]   signing: res/layout/listview_row_login_dvr.xml
+     [exec]   signing: res/layout/page_about.xml
+     [exec]   signing: res/layout/page_backup.xml
+     [exec]   signing: res/layout/page_backup_files.xml
+     [exec]   signing: res/layout/page_backup_list.xml
+     [exec]   signing: res/layout/page_backup_time_calendar.xml
+     [exec]   signing: res/layout/page_edit_dvr_info.xml
+     [exec]   signing: res/layout/page_hello.xml
+     [exec]   signing: res/layout/page_log_search.xml
+     [exec]   signing: res/layout/page_log_search_result.xml
+     [exec]   signing: res/layout/page_login.xml
+     [exec]   signing: res/layout/page_time_search.xml
+     [exec]   signing: res/layout/page_zoom.xml
+     [exec]   signing: res/layout/panel_live_landscape.xml
+     [exec]   signing: res/layout/panel_live_portrait.xml
+     [exec]   signing: res/layout/panel_play_landscape.xml
+     [exec]   signing: res/layout/panel_play_portrait.xml
+     [exec]   signing: res/layout/popup_4x4.xml
+     [exec]   signing: res/layout/popup_8ch.xml
+     [exec]   signing: res/layout/popup_backup.xml
+     [exec]   signing: res/layout/popup_control.xml
+     [exec]   signing: res/layout/popup_division.xml
+     [exec]   signing: res/layout/popup_relay_pole.xml
+     [exec]   signing: res/layout/popup_relay_second.xml
+     [exec]   signing: res/layout/popup_search.xml
+     [exec]   signing: res/layout/popup_stream.xml
+     [exec]   signing: res/layout/preference_category.xml
+     [exec]   signing: res/layout/preset_dialog.xml
+     [exec]   signing: res/layout/preset_picker.xml
+     [exec]   signing: res/layout/seekbar_preference.xml
+     [exec]   signing: res/xml/backup.xml
+     [exec]   signing: AndroidManifest.xml
+     [exec]   signing: resources.arsc
+     [exec]   signing: res/drawable-hdpi/background_actionbar.png
+     [exec]   signing: res/drawable-hdpi/button_back.png
+     [exec]   signing: res/drawable-hdpi/button_backup.png
+     [exec]   signing: res/drawable-hdpi/button_backup_disable.png
+     [exec]   signing: res/drawable-hdpi/button_backup_gobackup.png
+     [exec]   signing: res/drawable-hdpi/button_backup_gobackup_disable.png
+     [exec]   signing: res/drawable-hdpi/button_backup_gobackup_high.png
+     [exec]   signing: res/drawable-hdpi/button_backup_high.png
+     [exec]   signing: res/drawable-hdpi/button_backup_markin.png
+     [exec]   signing: res/drawable-hdpi/button_backup_markin_disable.png
+     [exec]   signing: res/drawable-hdpi/button_backup_markin_high.png
+     [exec]   signing: res/drawable-hdpi/button_backup_markout.png
+     [exec]   signing: res/drawable-hdpi/button_backup_markout_disable.png
+     [exec]   signing: res/drawable-hdpi/button_backup_markout_high.png
+     [exec]   signing: res/drawable-hdpi/button_div1.png
+     [exec]   signing: res/drawable-hdpi/button_div16.png
+     [exec]   signing: res/drawable-hdpi/button_div16_disable.png
+     [exec]   signing: res/drawable-hdpi/button_div16_high.png
+     [exec]   signing: res/drawable-hdpi/button_div1_disable.png
+     [exec]   signing: res/drawable-hdpi/button_div1_high.png
+     [exec]   signing: res/drawable-hdpi/button_div1_ptz.png
+     [exec]   signing: res/drawable-hdpi/button_div1_ptz_disable.png
+     [exec]   signing: res/drawable-hdpi/button_div1_ptz_high.png
+     [exec]   signing: res/drawable-hdpi/button_div4.png
+     [exec]   signing: res/drawable-hdpi/button_div4_disable.png
+     [exec]   signing: res/drawable-hdpi/button_div4_high.png
+     [exec]   signing: res/drawable-hdpi/button_div9.png
+     [exec]   signing: res/drawable-hdpi/button_div9_disable.png
+     [exec]   signing: res/drawable-hdpi/button_div9_high.png
+     [exec]   signing: res/drawable-hdpi/button_division.png
+     [exec]   signing: res/drawable-hdpi/button_division_disable.png
+     [exec]   signing: res/drawable-hdpi/button_division_high.png
+     [exec]   signing: res/drawable-hdpi/button_eventplay.png
+     [exec]   signing: res/drawable-hdpi/button_eventplay_disable.png
+     [exec]   signing: res/drawable-hdpi/button_eventplay_high.png
+     [exec]   signing: res/drawable-hdpi/button_home.png
+     [exec]   signing: res/drawable-hdpi/button_motion.png
+     [exec]   signing: res/drawable-hdpi/button_motion_disable.png
+     [exec]   signing: res/drawable-hdpi/button_motion_high.png
+     [exec]   signing: res/drawable-hdpi/button_nc.png
+     [exec]   signing: res/drawable-hdpi/button_nc_disable.png
+     [exec]   signing: res/drawable-hdpi/button_nc_high.png
+     [exec]   signing: res/drawable-hdpi/button_no.png
+     [exec]   signing: res/drawable-hdpi/button_no_disable.png
+     [exec]   signing: res/drawable-hdpi/button_no_high.png
+     [exec]   signing: res/drawable-hdpi/button_notificationoff.png
+     [exec]   signing: res/drawable-hdpi/button_notificationoff_disable.png
+     [exec]   signing: res/drawable-hdpi/button_notificationoff_high.png
+     [exec]   signing: res/drawable-hdpi/button_notificationon.png
+     [exec]   signing: res/drawable-hdpi/button_notificationon_disable.png
+     [exec]   signing: res/drawable-hdpi/button_notificationon_high.png
+     [exec]   signing: res/drawable-hdpi/button_play_forward.png
+     [exec]   signing: res/drawable-hdpi/button_play_forward_disable.png
+     [exec]   signing: res/drawable-hdpi/button_play_forward_high.png
+     [exec]   signing: res/drawable-hdpi/button_play_pause.png
+     [exec]   signing: res/drawable-hdpi/button_play_pause_disable.png
+     [exec]   signing: res/drawable-hdpi/button_play_pause_high.png
+     [exec]   signing: res/drawable-hdpi/button_play_playing.png
+     [exec]   signing: res/drawable-hdpi/button_play_playing_disable.png
+     [exec]   signing: res/drawable-hdpi/button_play_playing_high.png
+     [exec]   signing: res/drawable-hdpi/button_play_rewind.png
+     [exec]   signing: res/drawable-hdpi/button_play_rewind_disable.png
+     [exec]   signing: res/drawable-hdpi/button_play_rewind_high.png
+     [exec]   signing: res/drawable-hdpi/button_play_seek.png
+     [exec]   signing: res/drawable-hdpi/button_play_seek_disable.png
+     [exec]   signing: res/drawable-hdpi/button_play_seek_high.png
+     [exec]   signing: res/drawable-hdpi/button_play_step.png
+     [exec]   signing: res/drawable-hdpi/button_play_step_disable.png
+     [exec]   signing: res/drawable-hdpi/button_play_step_high.png
+     [exec]   signing: res/drawable-hdpi/button_pop_controls.png
+     [exec]   signing: res/drawable-hdpi/button_pop_controls_disable.png
+     [exec]   signing: res/drawable-hdpi/button_pop_controls_high.png
+     [exec]   signing: res/drawable-hdpi/button_pop_search.png
+     [exec]   signing: res/drawable-hdpi/button_pop_search_disable.png
+     [exec]   signing: res/drawable-hdpi/button_pop_search_high.png
+     [exec]   signing: res/drawable-hdpi/button_ptz.png
+     [exec]   signing: res/drawable-hdpi/button_ptz_disable.png
+     [exec]   signing: res/drawable-hdpi/button_ptz_focusin.png
+     [exec]   signing: res/drawable-hdpi/button_ptz_focusin_disable.png
+     [exec]   signing: res/drawable-hdpi/button_ptz_focusin_high.png
+     [exec]   signing: res/drawable-hdpi/button_ptz_focusout.png
+     [exec]   signing: res/drawable-hdpi/button_ptz_focusout_disable.png
+     [exec]   signing: res/drawable-hdpi/button_ptz_focusout_high.png
+     [exec]   signing: res/drawable-hdpi/button_ptz_gopreset.png
+     [exec]   signing: res/drawable-hdpi/button_ptz_gopreset_disable.png
+     [exec]   signing: res/drawable-hdpi/button_ptz_gopreset_high.png
+     [exec]   signing: res/drawable-hdpi/button_ptz_high.png
+     [exec]   signing: res/drawable-hdpi/button_ptz_irisclose.png
+     [exec]   signing: res/drawable-hdpi/button_ptz_irisclose_disable.png
+     [exec]   signing: res/drawable-hdpi/button_ptz_irisclose_high.png
+     [exec]   signing: res/drawable-hdpi/button_ptz_irisopen.png
+     [exec]   signing: res/drawable-hdpi/button_ptz_irisopen_disable.png
+     [exec]   signing: res/drawable-hdpi/button_ptz_irisopen_high.png
+     [exec]   signing: res/drawable-hdpi/button_ptz_setpreset.png
+     [exec]   signing: res/drawable-hdpi/button_ptz_setpreset_disable.png
+     [exec]   signing: res/drawable-hdpi/button_ptz_setpreset_high.png
+     [exec]   signing: res/drawable-hdpi/button_ptz_zoomin.png
+     [exec]   signing: res/drawable-hdpi/button_ptz_zoomin_disable.png
+     [exec]   signing: res/drawable-hdpi/button_ptz_zoomin_high.png
+     [exec]   signing: res/drawable-hdpi/button_ptz_zoomout.png
+     [exec]   signing: res/drawable-hdpi/button_ptz_zoomout_disable.png
+     [exec]   signing: res/drawable-hdpi/button_ptz_zoomout_high.png
+     [exec]   signing: res/drawable-hdpi/button_relay.png
+     [exec]   signing: res/drawable-hdpi/button_relay_disable.png
+     [exec]   signing: res/drawable-hdpi/button_relay_high.png
+     [exec]   signing: res/drawable-hdpi/button_relayauto.png
+     [exec]   signing: res/drawable-hdpi/button_relayauto_disable.png
+     [exec]   signing: res/drawable-hdpi/button_relayauto_high.png
+     [exec]   signing: res/drawable-hdpi/button_sec_01.png
+     [exec]   signing: res/drawable-hdpi/button_sec_01_disable.png
+     [exec]   signing: res/drawable-hdpi/button_sec_01_high.png
+     [exec]   signing: res/drawable-hdpi/button_sec_03.png
+     [exec]   signing: res/drawable-hdpi/button_sec_03_disable.png
+     [exec]   signing: res/drawable-hdpi/button_sec_03_high.png
+     [exec]   signing: res/drawable-hdpi/button_sec_05.png
+     [exec]   signing: res/drawable-hdpi/button_sec_05_disable.png
+     [exec]   signing: res/drawable-hdpi/button_sec_05_high.png
+     [exec]   signing: res/drawable-hdpi/button_sec_08.png
+     [exec]   signing: res/drawable-hdpi/button_sec_08_disable.png
+     [exec]   signing: res/drawable-hdpi/button_sec_08_high.png
+     [exec]   signing: res/drawable-hdpi/button_soundclose.png
+     [exec]   signing: res/drawable-hdpi/button_soundclose_disable.png
+     [exec]   signing: res/drawable-hdpi/button_soundclose_high.png
+     [exec]   signing: res/drawable-hdpi/button_soundopen.png
+     [exec]   signing: res/drawable-hdpi/button_soundopen_disable.png
+     [exec]   signing: res/drawable-hdpi/button_soundopen_high.png
+     [exec]   signing: res/drawable-hdpi/button_status.png
+     [exec]   signing: res/drawable-hdpi/button_status_disable.png
+     [exec]   signing: res/drawable-hdpi/button_status_event.png
+     [exec]   signing: res/drawable-hdpi/button_status_event_disable.png
+     [exec]   signing: res/drawable-hdpi/button_status_event_high.png
+     [exec]   signing: res/drawable-hdpi/button_status_high.png
+     [exec]   signing: res/drawable-hdpi/button_stream_00.png
+     [exec]   signing: res/drawable-hdpi/button_stream_00_disable.png
+     [exec]   signing: res/drawable-hdpi/button_stream_00_high.png
+     [exec]   signing: res/drawable-hdpi/button_stream_01.png
+     [exec]   signing: res/drawable-hdpi/button_stream_01_disable.png
+     [exec]   signing: res/drawable-hdpi/button_stream_01_high.png
+     [exec]   signing: res/drawable-hdpi/button_timeplay.png
+     [exec]   signing: res/drawable-hdpi/button_timeplay_disable.png
+     [exec]   signing: res/drawable-hdpi/button_timeplay_high.png
+     [exec]   signing: res/drawable-hdpi/button_videoloss.png
+     [exec]   signing: res/drawable-hdpi/button_videoloss_disable.png
+     [exec]   signing: res/drawable-hdpi/button_videoloss_high.png
+     [exec]   signing: res/drawable-hdpi/button_zoom.png
+     [exec]   signing: res/drawable-hdpi/button_zoom_disable.png
+     [exec]   signing: res/drawable-hdpi/button_zoom_high.png
+     [exec]   signing: res/drawable-hdpi/dvricon_04.png
+     [exec]   signing: res/drawable-hdpi/dvricon_08.png
+     [exec]   signing: res/drawable-hdpi/dvricon_09.png
+     [exec]   signing: res/drawable-hdpi/dvricon_10.png
+     [exec]   signing: res/drawable-hdpi/dvricon_16.png
+     [exec]   signing: res/drawable-hdpi/dvricon_20.png
+     [exec]   signing: res/drawable-hdpi/dvricon_32.png
+     [exec]   signing: res/drawable-hdpi/dvricon_unknow.png
+     [exec]   signing: res/drawable-hdpi/ic_launcher.png
+     [exec]   signing: res/drawable-hdpi/ic_launcher_actionbar.png
+     [exec]   signing: res/drawable-ldpi/background_actionbar.png
+     [exec]   signing: res/drawable-ldpi/button_back.png
+     [exec]   signing: res/drawable-ldpi/button_backup.png
+     [exec]   signing: res/drawable-ldpi/button_backup_disable.png
+     [exec]   signing: res/drawable-ldpi/button_backup_gobackup.png
+     [exec]   signing: res/drawable-ldpi/button_backup_gobackup_disable.png
+     [exec]   signing: res/drawable-ldpi/button_backup_gobackup_high.png
+     [exec]   signing: res/drawable-ldpi/button_backup_high.png
+     [exec]   signing: res/drawable-ldpi/button_backup_markin.png
+     [exec]   signing: res/drawable-ldpi/button_backup_markin_disable.png
+     [exec]   signing: res/drawable-ldpi/button_backup_markin_high.png
+     [exec]   signing: res/drawable-ldpi/button_backup_markout.png
+     [exec]   signing: res/drawable-ldpi/button_backup_markout_disable.png
+     [exec]   signing: res/drawable-ldpi/button_backup_markout_high.png
+     [exec]   signing: res/drawable-ldpi/button_div1.png
+     [exec]   signing: res/drawable-ldpi/button_div16.png
+     [exec]   signing: res/drawable-ldpi/button_div16_disable.png
+     [exec]   signing: res/drawable-ldpi/button_div16_high.png
+     [exec]   signing: res/drawable-ldpi/button_div1_disable.png
+     [exec]   signing: res/drawable-ldpi/button_div1_high.png
+     [exec]   signing: res/drawable-ldpi/button_div1_ptz.png
+     [exec]   signing: res/drawable-ldpi/button_div1_ptz_disable.png
+     [exec]   signing: res/drawable-ldpi/button_div1_ptz_high.png
+     [exec]   signing: res/drawable-ldpi/button_div4.png
+     [exec]   signing: res/drawable-ldpi/button_div4_disable.png
+     [exec]   signing: res/drawable-ldpi/button_div4_high.png
+     [exec]   signing: res/drawable-ldpi/button_div9.png
+     [exec]   signing: res/drawable-ldpi/button_div9_disable.png
+     [exec]   signing: res/drawable-ldpi/button_div9_high.png
+     [exec]   signing: res/drawable-ldpi/button_division.png
+     [exec]   signing: res/drawable-ldpi/button_division_disable.png
+     [exec]   signing: res/drawable-ldpi/button_division_high.png
+     [exec]   signing: res/drawable-ldpi/button_eventplay.png
+     [exec]   signing: res/drawable-ldpi/button_eventplay_diable.png
+     [exec]   signing: res/drawable-ldpi/button_eventplay_disable.png
+     [exec]   signing: res/drawable-ldpi/button_eventplay_high.png
+     [exec]   signing: res/drawable-ldpi/button_home.png
+     [exec]   signing: res/drawable-ldpi/button_motion.png
+     [exec]   signing: res/drawable-ldpi/button_motion_disable.png
+     [exec]   signing: res/drawable-ldpi/button_motion_high.png
+     [exec]   signing: res/drawable-ldpi/button_nc.png
+     [exec]   signing: res/drawable-ldpi/button_nc_disable.png
+     [exec]   signing: res/drawable-ldpi/button_nc_high.png
+     [exec]   signing: res/drawable-ldpi/button_no.png
+     [exec]   signing: res/drawable-ldpi/button_no_disable.png
+     [exec]   signing: res/drawable-ldpi/button_no_high.png
+     [exec]   signing: res/drawable-ldpi/button_notification_disable.png
+     [exec]   signing: res/drawable-ldpi/button_notificationoff.png
+     [exec]   signing: res/drawable-ldpi/button_notificationoff_disable.png
+     [exec]   signing: res/drawable-ldpi/button_notificationoff_high.png
+     [exec]   signing: res/drawable-ldpi/button_notificationon.png
+     [exec]   signing: res/drawable-ldpi/button_notificationon_high.png
+     [exec]   signing: res/drawable-ldpi/button_play_forward.png
+     [exec]   signing: res/drawable-ldpi/button_play_forward_disable.png
+     [exec]   signing: res/drawable-ldpi/button_play_forward_high.png
+     [exec]   signing: res/drawable-ldpi/button_play_pause.png
+     [exec]   signing: res/drawable-ldpi/button_play_pause_disable.png
+     [exec]   signing: res/drawable-ldpi/button_play_pause_high.png
+     [exec]   signing: res/drawable-ldpi/button_play_playing.png
+     [exec]   signing: res/drawable-ldpi/button_play_playing_disable.png
+     [exec]   signing: res/drawable-ldpi/button_play_playing_high.png
+     [exec]   signing: res/drawable-ldpi/button_play_rewind.png
+     [exec]   signing: res/drawable-ldpi/button_play_rewind_disable.png
+     [exec]   signing: res/drawable-ldpi/button_play_rewind_high.png
+     [exec]   signing: res/drawable-ldpi/button_play_seek.png
+     [exec]   signing: res/drawable-ldpi/button_play_seek_disable.png
+     [exec]   signing: res/drawable-ldpi/button_play_seek_high.png
+     [exec]   signing: res/drawable-ldpi/button_play_step.png
+     [exec]   signing: res/drawable-ldpi/button_play_step_disable.png
+     [exec]   signing: res/drawable-ldpi/button_play_step_high.png
+     [exec]   signing: res/drawable-ldpi/button_pop_controls.png
+     [exec]   signing: res/drawable-ldpi/button_pop_controls_disable.png
+     [exec]   signing: res/drawable-ldpi/button_pop_controls_high.png
+     [exec]   signing: res/drawable-ldpi/button_pop_search.png
+     [exec]   signing: res/drawable-ldpi/button_pop_search_disable.png
+     [exec]   signing: res/drawable-ldpi/button_pop_search_high.png
+     [exec]   signing: res/drawable-ldpi/button_ptz.png
+     [exec]   signing: res/drawable-ldpi/button_ptz_disable.png
+     [exec]   signing: res/drawable-ldpi/button_ptz_focusin.png
+     [exec]   signing: res/drawable-ldpi/button_ptz_focusin_disable.png
+     [exec]   signing: res/drawable-ldpi/button_ptz_focusin_high.png
+     [exec]   signing: res/drawable-ldpi/button_ptz_focusout.png
+     [exec]   signing: res/drawable-ldpi/button_ptz_focusout_disable.png
+     [exec]   signing: res/drawable-ldpi/button_ptz_focusout_high.png
+     [exec]   signing: res/drawable-ldpi/button_ptz_gopreset.png
+     [exec]   signing: res/drawable-ldpi/button_ptz_gopreset_disable.png
+     [exec]   signing: res/drawable-ldpi/button_ptz_gopreset_high.png
+     [exec]   signing: res/drawable-ldpi/button_ptz_high.png
+     [exec]   signing: res/drawable-ldpi/button_ptz_irisclose.png
+     [exec]   signing: res/drawable-ldpi/button_ptz_irisclose_disable.png
+     [exec]   signing: res/drawable-ldpi/button_ptz_irisclose_high.png
+     [exec]   signing: res/drawable-ldpi/button_ptz_irisopen.png
+     [exec]   signing: res/drawable-ldpi/button_ptz_irisopen_disable.png
+     [exec]   signing: res/drawable-ldpi/button_ptz_irisopen_high.png
+     [exec]   signing: res/drawable-ldpi/button_ptz_setpreset.png
+     [exec]   signing: res/drawable-ldpi/button_ptz_setpreset_disable.png
+     [exec]   signing: res/drawable-ldpi/button_ptz_setpreset_high.png
+     [exec]   signing: res/drawable-ldpi/button_ptz_zoomin.png
+     [exec]   signing: res/drawable-ldpi/button_ptz_zoomin_disable.png
+     [exec]   signing: res/drawable-ldpi/button_ptz_zoomin_high.png
+     [exec]   signing: res/drawable-ldpi/button_ptz_zoomout.png
+     [exec]   signing: res/drawable-ldpi/button_ptz_zoomout_disable.png
+     [exec]   signing: res/drawable-ldpi/button_ptz_zoomout_high.png
+     [exec]   signing: res/drawable-ldpi/button_relay.png
+     [exec]   signing: res/drawable-ldpi/button_relay_disable.png
+     [exec]   signing: res/drawable-ldpi/button_relay_high.png
+     [exec]   signing: res/drawable-ldpi/button_relayauto.png
+     [exec]   signing: res/drawable-ldpi/button_relayauto_disable.png
+     [exec]   signing: res/drawable-ldpi/button_relayauto_high.png
+     [exec]   signing: res/drawable-ldpi/button_sec_01.png
+     [exec]   signing: res/drawable-ldpi/button_sec_01_disable.png
+     [exec]   signing: res/drawable-ldpi/button_sec_01_high.png
+     [exec]   signing: res/drawable-ldpi/button_sec_03.png
+     [exec]   signing: res/drawable-ldpi/button_sec_03_disable.png
+     [exec]   signing: res/drawable-ldpi/button_sec_03_high.png
+     [exec]   signing: res/drawable-ldpi/button_sec_05.png
+     [exec]   signing: res/drawable-ldpi/button_sec_05_disable.png
+     [exec]   signing: res/drawable-ldpi/button_sec_05_high.png
+     [exec]   signing: res/drawable-ldpi/button_sec_08.png
+     [exec]   signing: res/drawable-ldpi/button_sec_08_disable.png
+     [exec]   signing: res/drawable-ldpi/button_sec_08_high.png
+     [exec]   signing: res/drawable-ldpi/button_soundclose.png
+     [exec]   signing: res/drawable-ldpi/button_soundclose_disable.png
+     [exec]   signing: res/drawable-ldpi/button_soundclose_high.png
+     [exec]   signing: res/drawable-ldpi/button_soundopen.png
+     [exec]   signing: res/drawable-ldpi/button_soundopen_disable.png
+     [exec]   signing: res/drawable-ldpi/button_soundopen_high.png
+     [exec]   signing: res/drawable-ldpi/button_status.png
+     [exec]   signing: res/drawable-ldpi/button_status_disable.png
+     [exec]   signing: res/drawable-ldpi/button_status_event.png
+     [exec]   signing: res/drawable-ldpi/button_status_event_disable.png
+     [exec]   signing: res/drawable-ldpi/button_status_event_high.png
+     [exec]   signing: res/drawable-ldpi/button_status_high.png
+     [exec]   signing: res/drawable-ldpi/button_stream_00.png
+     [exec]   signing: res/drawable-ldpi/button_stream_00_disable.png
+     [exec]   signing: res/drawable-ldpi/button_stream_00_high.png
+     [exec]   signing: res/drawable-ldpi/button_stream_01.png
+     [exec]   signing: res/drawable-ldpi/button_stream_01_disable.png
+     [exec]   signing: res/drawable-ldpi/button_stream_01_high.png
+     [exec]   signing: res/drawable-ldpi/button_timeplay.png
+     [exec]   signing: res/drawable-ldpi/button_timeplay_disable.png
+     [exec]   signing: res/drawable-ldpi/button_timeplay_high.png
+     [exec]   signing: res/drawable-ldpi/button_videoloss.png
+     [exec]   signing: res/drawable-ldpi/button_videoloss_disable.png
+     [exec]   signing: res/drawable-ldpi/button_videoloss_high.png
+     [exec]   signing: res/drawable-ldpi/button_zoom.png
+     [exec]   signing: res/drawable-ldpi/button_zoom_disable.png
+     [exec]   signing: res/drawable-ldpi/button_zoom_high.png
+     [exec]   signing: res/drawable-ldpi/dvricon_04.png
+     [exec]   signing: res/drawable-ldpi/dvricon_08.png
+     [exec]   signing: res/drawable-ldpi/dvricon_09.png
+     [exec]   signing: res/drawable-ldpi/dvricon_10.png
+     [exec]   signing: res/drawable-ldpi/dvricon_16.png
+     [exec]   signing: res/drawable-ldpi/dvricon_20.png
+     [exec]   signing: res/drawable-ldpi/dvricon_32.png
+     [exec]   signing: res/drawable-ldpi/dvricon_unknow.png
+     [exec]   signing: res/drawable-ldpi/ic_launcher.png
+     [exec]   signing: res/drawable-ldpi/ic_launcher_actionbar.png
+     [exec]   signing: res/drawable-mdpi/background_actionbar.png
+     [exec]   signing: res/drawable-mdpi/button_back.png
+     [exec]   signing: res/drawable-mdpi/button_backup.png
+     [exec]   signing: res/drawable-mdpi/button_backup_disable.png
+     [exec]   signing: res/drawable-mdpi/button_backup_gobackup.png
+     [exec]   signing: res/drawable-mdpi/button_backup_gobackup_disable.png
+     [exec]   signing: res/drawable-mdpi/button_backup_gobackup_high.png
+     [exec]   signing: res/drawable-mdpi/button_backup_high.png
+     [exec]   signing: res/drawable-mdpi/button_backup_markin.png
+     [exec]   signing: res/drawable-mdpi/button_backup_markin_disable.png
+     [exec]   signing: res/drawable-mdpi/button_backup_markin_high.png
+     [exec]   signing: res/drawable-mdpi/button_backup_markout.png
+     [exec]   signing: res/drawable-mdpi/button_backup_markout_disable.png
+     [exec]   signing: res/drawable-mdpi/button_backup_markout_high.png
+     [exec]   signing: res/drawable-mdpi/button_div1.png
+     [exec]   signing: res/drawable-mdpi/button_div16.png
+     [exec]   signing: res/drawable-mdpi/button_div16_disable.png
+     [exec]   signing: res/drawable-mdpi/button_div16_high.png
+     [exec]   signing: res/drawable-mdpi/button_div1_disable.png
+     [exec]   signing: res/drawable-mdpi/button_div1_high.png
+     [exec]   signing: res/drawable-mdpi/button_div1_ptz.png
+     [exec]   signing: res/drawable-mdpi/button_div1_ptz_disable.png
+     [exec]   signing: res/drawable-mdpi/button_div1_ptz_high.png
+     [exec]   signing: res/drawable-mdpi/button_div4.png
+     [exec]   signing: res/drawable-mdpi/button_div4_disable.png
+     [exec]   signing: res/drawable-mdpi/button_div4_high.png
+     [exec]   signing: res/drawable-mdpi/button_div9.png
+     [exec]   signing: res/drawable-mdpi/button_div9_disable.png
+     [exec]   signing: res/drawable-mdpi/button_div9_high.png
+     [exec]   signing: res/drawable-mdpi/button_division.png
+     [exec]   signing: res/drawable-mdpi/button_division_disable.png
+     [exec]   signing: res/drawable-mdpi/button_division_high.png
+     [exec]   signing: res/drawable-mdpi/button_eventplay.png
+     [exec]   signing: res/drawable-mdpi/button_eventplay_disable.png
+     [exec]   signing: res/drawable-mdpi/button_eventplay_high.png
+     [exec]   signing: res/drawable-mdpi/button_home.png
+     [exec]   signing: res/drawable-mdpi/button_motion.png
+     [exec]   signing: res/drawable-mdpi/button_motion_disable.png
+     [exec]   signing: res/drawable-mdpi/button_motion_high.png
+     [exec]   signing: res/drawable-mdpi/button_nc.png
+     [exec]   signing: res/drawable-mdpi/button_nc_disable.png
+     [exec]   signing: res/drawable-mdpi/button_nc_high.png
+     [exec]   signing: res/drawable-mdpi/button_no.png
+     [exec]   signing: res/drawable-mdpi/button_no_disable.png
+     [exec]   signing: res/drawable-mdpi/button_no_high.png
+     [exec]   signing: res/drawable-mdpi/button_notificationoff.png
+     [exec]   signing: res/drawable-mdpi/button_notificationoff_disable.png
+     [exec]   signing: res/drawable-mdpi/button_notificationoff_high.png
+     [exec]   signing: res/drawable-mdpi/button_notificationon.png
+     [exec]   signing: res/drawable-mdpi/button_notificationon_disable.png
+     [exec]   signing: res/drawable-mdpi/button_notificationon_high.png
+     [exec]   signing: res/drawable-mdpi/button_play_forward.png
+     [exec]   signing: res/drawable-mdpi/button_play_forward_disable.png
+     [exec]   signing: res/drawable-mdpi/button_play_forward_high.png
+     [exec]   signing: res/drawable-mdpi/button_play_pause.png
+     [exec]   signing: res/drawable-mdpi/button_play_pause_disable.png
+     [exec]   signing: res/drawable-mdpi/button_play_pause_high.png
+     [exec]   signing: res/drawable-mdpi/button_play_playing.png
+     [exec]   signing: res/drawable-mdpi/button_play_playing_disable.png
+     [exec]   signing: res/drawable-mdpi/button_play_playing_high.png
+     [exec]   signing: res/drawable-mdpi/button_play_rewind.png
+     [exec]   signing: res/drawable-mdpi/button_play_rewind_disable.png
+     [exec]   signing: res/drawable-mdpi/button_play_rewind_high.png
+     [exec]   signing: res/drawable-mdpi/button_play_seek.png
+     [exec]   signing: res/drawable-mdpi/button_play_seek_disable.png
+     [exec]   signing: res/drawable-mdpi/button_play_seek_high.png
+     [exec]   signing: res/drawable-mdpi/button_play_step.png
+     [exec]   signing: res/drawable-mdpi/button_play_step_disable.png
+     [exec]   signing: res/drawable-mdpi/button_play_step_high.png
+     [exec]   signing: res/drawable-mdpi/button_pop_controls.png
+     [exec]   signing: res/drawable-mdpi/button_pop_controls_disable.png
+     [exec]   signing: res/drawable-mdpi/button_pop_controls_high.png
+     [exec]   signing: res/drawable-mdpi/button_pop_search.png
+     [exec]   signing: res/drawable-mdpi/button_pop_search_disable.png
+     [exec]   signing: res/drawable-mdpi/button_pop_search_high.png
+     [exec]   signing: res/drawable-mdpi/button_ptz.png
+     [exec]   signing: res/drawable-mdpi/button_ptz_disable.png
+     [exec]   signing: res/drawable-mdpi/button_ptz_focusin.png
+     [exec]   signing: res/drawable-mdpi/button_ptz_focusin_disable.png
+     [exec]   signing: res/drawable-mdpi/button_ptz_focusin_high.png
+     [exec]   signing: res/drawable-mdpi/button_ptz_focusout.png
+     [exec]   signing: res/drawable-mdpi/button_ptz_focusout_disable.png
+     [exec]   signing: res/drawable-mdpi/button_ptz_focusout_high.png
+     [exec]   signing: res/drawable-mdpi/button_ptz_gopreset.png
+     [exec]   signing: res/drawable-mdpi/button_ptz_gopreset_disable.png
+     [exec]   signing: res/drawable-mdpi/button_ptz_gopreset_high.png
+     [exec]   signing: res/drawable-mdpi/button_ptz_high.png
+     [exec]   signing: res/drawable-mdpi/button_ptz_irisclose.png
+     [exec]   signing: res/drawable-mdpi/button_ptz_irisclose_disable.png
+     [exec]   signing: res/drawable-mdpi/button_ptz_irisclose_high.png
+     [exec]   signing: res/drawable-mdpi/button_ptz_irisopen.png
+     [exec]   signing: res/drawable-mdpi/button_ptz_irisopen_disable.png
+     [exec]   signing: res/drawable-mdpi/button_ptz_irisopen_high.png
+     [exec]   signing: res/drawable-mdpi/button_ptz_setpreset.png
+     [exec]   signing: res/drawable-mdpi/button_ptz_setpreset_disable.png
+     [exec]   signing: res/drawable-mdpi/button_ptz_setpreset_high.png
+     [exec]   signing: res/drawable-mdpi/button_ptz_zoomin.png
+     [exec]   signing: res/drawable-mdpi/button_ptz_zoomin_disable.png
+     [exec]   signing: res/drawable-mdpi/button_ptz_zoomin_high.png
+     [exec]   signing: res/drawable-mdpi/button_ptz_zoomout.png
+     [exec]   signing: res/drawable-mdpi/button_ptz_zoomout_disable.png
+     [exec]   signing: res/drawable-mdpi/button_ptz_zoomout_high.png
+     [exec]   signing: res/drawable-mdpi/button_relay.png
+     [exec]   signing: res/drawable-mdpi/button_relay_disable.png
+     [exec]   signing: res/drawable-mdpi/button_relay_high.png
+     [exec]   signing: res/drawable-mdpi/button_relayauto.png
+     [exec]   signing: res/drawable-mdpi/button_relayauto_disable.png
+     [exec]   signing: res/drawable-mdpi/button_relayauto_high.png
+     [exec]   signing: res/drawable-mdpi/button_sec_01.png
+     [exec]   signing: res/drawable-mdpi/button_sec_01_disable.png
+     [exec]   signing: res/drawable-mdpi/button_sec_01_high.png
+     [exec]   signing: res/drawable-mdpi/button_sec_03.png
+     [exec]   signing: res/drawable-mdpi/button_sec_03_disable.png
+     [exec]   signing: res/drawable-mdpi/button_sec_03_high.png
+     [exec]   signing: res/drawable-mdpi/button_sec_05.png
+     [exec]   signing: res/drawable-mdpi/button_sec_05_disable.png
+     [exec]   signing: res/drawable-mdpi/button_sec_05_high.png
+     [exec]   signing: res/drawable-mdpi/button_sec_08.png
+     [exec]   signing: res/drawable-mdpi/button_sec_08_disable.png
+     [exec]   signing: res/drawable-mdpi/button_sec_08_high.png
+     [exec]   signing: res/drawable-mdpi/button_soundclose.png
+     [exec]   signing: res/drawable-mdpi/button_soundclose_disable.png
+     [exec]   signing: res/drawable-mdpi/button_soundclose_high.png
+     [exec]   signing: res/drawable-mdpi/button_soundopen.png
+     [exec]   signing: res/drawable-mdpi/button_soundopen_disable.png
+     [exec]   signing: res/drawable-mdpi/button_soundopen_high.png
+     [exec]   signing: res/drawable-mdpi/button_status.png
+     [exec]   signing: res/drawable-mdpi/button_status_disable.png
+     [exec]   signing: res/drawable-mdpi/button_status_event.png
+     [exec]   signing: res/drawable-mdpi/button_status_event_disable.png
+     [exec]   signing: res/drawable-mdpi/button_status_event_high.png
+     [exec]   signing: res/drawable-mdpi/button_status_high.png
+     [exec]   signing: res/drawable-mdpi/button_stream_00.png
+     [exec]   signing: res/drawable-mdpi/button_stream_00_disable.png
+     [exec]   signing: res/drawable-mdpi/button_stream_00_high.png
+     [exec]   signing: res/drawable-mdpi/button_stream_01.png
+     [exec]   signing: res/drawable-mdpi/button_stream_01_disable.png
+     [exec]   signing: res/drawable-mdpi/button_stream_01_high.png
+     [exec]   signing: res/drawable-mdpi/button_timeplay.png
+     [exec]   signing: res/drawable-mdpi/button_timeplay_disable.png
+     [exec]   signing: res/drawable-mdpi/button_timeplay_high.png
+     [exec]   signing: res/drawable-mdpi/button_videoloss.png
+     [exec]   signing: res/drawable-mdpi/button_videoloss_disable.png
+     [exec]   signing: res/drawable-mdpi/button_videoloss_high.png
+     [exec]   signing: res/drawable-mdpi/button_zoom.png
+     [exec]   signing: res/drawable-mdpi/button_zoom_disable.png
+     [exec]   signing: res/drawable-mdpi/button_zoom_high.png
+     [exec]   signing: res/drawable-mdpi/dvricon_04.png
+     [exec]   signing: res/drawable-mdpi/dvricon_08.png
+     [exec]   signing: res/drawable-mdpi/dvricon_09.png
+     [exec]   signing: res/drawable-mdpi/dvricon_10.png
+     [exec]   signing: res/drawable-mdpi/dvricon_16.png
+     [exec]   signing: res/drawable-mdpi/dvricon_20.png
+     [exec]   signing: res/drawable-mdpi/dvricon_32.png
+     [exec]   signing: res/drawable-mdpi/dvricon_unknow.png
+     [exec]   signing: res/drawable-mdpi/ic_launcher.png
+     [exec]   signing: res/drawable-mdpi/ic_launcher_actionbar.png
+     [exec]   signing: res/layout-land/actionbar.xml
+     [exec]   signing: res/layout-land/actionbar_home.xml
+     [exec]   signing: res/layout-land/main.xml
+     [exec]   signing: res/layout-land/page_play.xml
+     [exec]   signing: res/layout-land/page_ptz.xml
+     [exec]   signing: res/layout-land/page_relay.xml
+     [exec]   signing: res/layout-land/panel_live.xml
+     [exec]   signing: res/layout-land/panel_play.xml
+     [exec]   signing: res/layout-land/panel_ptz.xml
+     [exec]   signing: res/layout-land/panel_relay.xml
+     [exec]   signing: res/layout-land/popup_1x1.xml
+     [exec]   signing: res/layout-land/popup_2x2.xml
+     [exec]   signing: res/layout-land/popup_status.xml
+     [exec]   signing: res/layout-port/actionbar.xml
+     [exec]   signing: res/layout-port/actionbar_home.xml
+     [exec]   signing: res/layout-port/main.xml
+     [exec]   signing: res/layout-port/page_play.xml
+     [exec]   signing: res/layout-port/page_ptz.xml
+     [exec]   signing: res/layout-port/page_relay.xml
+     [exec]   signing: res/layout-port/panel_live.xml
+     [exec]   signing: res/layout-port/panel_play.xml
+     [exec]   signing: res/layout-port/panel_ptz.xml
+     [exec]   signing: res/layout-port/panel_relay.xml
+     [exec]   signing: res/layo
+     [exec] ut-port/popup_1x1.xml
+     [exec]   signing: res/layout-port/popup_2x2.xml
+     [exec]   signing: res/layout-port/popup_status.xml
+     [exec]   signing: classes.dex
+     [exec]   signing: lib/armeabi/libP2PTunnelAPIs.so
+     [exec]   signing: lib/armeabi/libpeersdk-jni.so
+
+zipalign-apk:
+     [echo] ========================================
+     [echo] Zipaligning signed apk....
+     [echo] ========================================
+     [exec] Verifying alignment of /home/rd/share/autobuild_android-apk_11298/iWatchDVR2/bin/Brighton_Zeviewer.apk (4)...
+     [exec]       50 META-INF/MANIFEST.MF (OK - compressed)
+     [exec]    17763 META-INF/ICATCH.SF (OK - compressed)
+     [exec]    35985 META-INF/ICATCH.RSA (OK - compressed)
+     [exec]    37125 res/anim/disappear.xml (OK - compressed)
+     [exec]    37438 res/anim/grow_from_bottom.xml (OK - compressed)
+     [exec]    37890 res/anim/grow_from_bottomleft_to_topright.xml (OK - compressed)
+     [exec]    38340 res/anim/grow_from_bottomright_to_topleft.xml (OK - compressed)
+     [exec]    38773 res/anim/grow_from_top.xml (OK - compressed)
+     [exec]    39223 res/anim/grow_from_topleft_to_bottomright.xml (OK - compressed)
+     [exec]    39669 res/anim/grow_from_topright_to_bottomleft.xml (OK - compressed)
+     [exec]    40097 res/anim/pump_bottom.xml (OK - compressed)
+     [exec]    40526 res/anim/pump_top.xml (OK - compressed)
+     [exec]    40949 res/anim/rail.xml (OK - compressed)
+     [exec]    41229 res/anim/shrink_from_bottom.xml (OK - compressed)
+     [exec]    41683 res/anim/shrink_from_bottomleft_to_topright.xml (OK - compressed)
+     [exec]    42136 res/anim/shrink_from_bottomright_to_topleft.xml (OK - compressed)
+     [exec]    42567 res/anim/shrink_from_top.xml (OK - compressed)
+     [exec]    43022 res/anim/shrink_from_topleft_to_bottomright.xml (OK - compressed)
+     [exec]    43473 res/anim/shrink_from_topright_to_bottomleft.xml (OK - compressed)
+     [exec]    43909 res/drawable/action_item_btn.xml (OK - compressed)
+     [exec]    44320 res/drawable/action_item_selected.9.png (OK)
+     [exec]    45060 res/drawable/arrow_down.png (OK)
+     [exec]    45960 res/drawable/arrow_up.png (OK)
+     [exec]    46872 res/drawable/background.9.png (OK)
+     [exec]    47216 res/drawable/background_wheel.xml (OK - compressed)
+     [exec]    47792 res/drawable/ic_launcher.png (OK)
+     [exec]    57864 res/drawable/point_center.png (OK)
+     [exec]    58004 res/drawable/popup.9.png (OK)
+     [exec]    58628 res/drawable/rect.9.png (OK)
+     [exec]    58876 res/drawable/rect_center.png (OK)
+     [exec]    59027 res/drawable/selector_action_item.xml (OK - compressed)
+     [exec]    59433 res/drawable/selector_button_1sec.xml (OK - compressed)
+     [exec]    59833 res/drawable/selector_button_1x1.xml (OK - compressed)
+     [exec]    60237 res/drawable/selector_button_1x1_ptz.xml (OK - compressed)
+     [exec]    60637 res/drawable/selector_button_2x2.xml (OK - compressed)
+     [exec]    61039 res/drawable/selector_button_3sec.xml (OK - compressed)
+     [exec]    61440 res/drawable/selector_button_3x3.xml (OK - compressed)
+     [exec]    61841 res/drawable/selector_button_4x4.xml (OK - compressed)
+     [exec]    62242 res/drawable/selector_button_5sec.xml (OK - compressed)
+     [exec]    62644 res/drawable/selector_button_8sec.xml (OK - compressed)
+     [exec]    63048 res/drawable/selector_button_backup.xml (OK - compressed)
+     [exec]    63453 res/drawable/selector_button_division.xml (OK - compressed)
+     [exec]    63860 res/drawable/selector_button_eventplay.xml (OK - compressed)
+     [exec]    64265 res/drawable/selector_button_focusin.xml (OK - compressed)
+     [exec]    64672 res/drawable/selector_button_focusout.xml (OK - compressed)
+     [exec]    65078 res/drawable/selector_button_forward.xml (OK - compressed)
+     [exec]    65484 res/drawable/selector_button_go_preset.xml (OK - compressed)
+     [exec]    65890 res/drawable/selector_button_gobackup.xml (OK - compressed)
+     [exec]    66297 res/drawable/selector_button_iris_close.xml (OK - compressed)
+     [exec]    66703 res/drawable/selector_button_iris_open.xml (OK - compressed)
+     [exec]    67109 res/drawable/selector_button_mainstream.xml (OK - compressed)
+     [exec]    67514 res/drawable/selector_button_markin.xml (OK - compressed)
+     [exec]    67918 res/drawable/selector_button_markout.xml (OK - compressed)
+     [exec]    68321 res/drawable/selector_button_motion.xml (OK - compressed)
+     [exec]    68726 res/drawable/selector_button_muteoff.xml (OK - compressed)
+     [exec]    69131 res/drawable/selector_button_muteon.xml (OK - compressed)
+     [exec]    69531 res/drawable/selector_button_nc.xml (OK - compressed)
+     [exec]    69930 res/drawable/selector_button_no.xml (OK - compressed)
+     [exec]    70338 res/drawable/selector_button_notifyoff.xml (OK - compressed)
+     [exec]    70745 res/drawable/selector_button_notifyon.xml (OK - compressed)
+     [exec]    71147 res/drawable/selector_button_pause.xml (OK - compressed)
+     [exec]    71548 res/drawable/selector_button_play.xml (OK - compressed)
+     [exec]    71958 res/drawable/selector_button_pop_controls.xml (OK - compressed)
+     [exec]    72365 res/drawable/selector_button_pop_search.xml (OK - compressed)
+     [exec]    72766 res/drawable/selector_button_ptz.xml (OK - compressed)
+     [exec]    73161 res/drawable/selector_button_relay.xml (OK - compressed)
+     [exec]    73566 res/drawable/selector_button_relayauto.xml (OK - compressed)
+     [exec]    73969 res/drawable/selector_button_rewind.xml (OK - compressed)
+     [exec]    74372 res/drawable/selector_button_seek.xml (OK - compressed)
+     [exec]    74780 res/drawable/selector_button_set_preset.xml (OK - compressed)
+     [exec]    75183 res/drawable/selector_button_status.xml (OK - compressed)
+     [exec]    75595 res/drawable/selector_button_status_event.xml (OK - compressed)
+     [exec]    75998 res/drawable/selector_button_step.xml (OK - compressed)
+     [exec]    76404 res/drawable/selector_button_substream.xml (OK - compressed)
+     [exec]    76814 res/drawable/selector_button_time_search.xml (OK - compressed)
+     [exec]    77222 res/drawable/selector_button_videoloss.xml (OK - compressed)
+     [exec]    77625 res/drawable/selector_button_zoom.xml (OK - compressed)
+     [exec]    78029 res/drawable/selector_button_zoomin.xml (OK - compressed)
+     [exec]    78433 res/drawable/selector_button_zoomout.xml (OK - compressed)
+     [exec]    78831 res/drawable/selector_calendar.xml (OK - compressed)
+     [exec]    79292 res/drawable/selector_calendar_event.xml (OK - compressed)
+     [exec]    79751 res/drawable/selector_calendar_mark.xml (OK - compressed)
+     [exec]    80200 res/drawable/shape_wheel.xml (OK - compressed)
+     [exec]    80603 res/layout/calendar_view.xml (OK - compressed)
+     [exec]    81672 res/layout/clock.xml (OK - compressed)
+     [exec]    82312 res/layout/clock_time.xml (OK - compressed)
+     [exec]    82974 res/layout/dialog_1x1.xml (OK - compressed)
+     [exec]    83444 res/layout/dialog_backup_datetime.xml (OK - compressed)
+     [exec]    83957 res/layout/dialog_divide.xml (OK - compressed)
+     [exec]    84426 res/layout/dialog_divide_gridcontent.xml (OK - compressed)
+     [exec]    84817 res/layout/dialog_ptz_preset.xml (OK - compressed)
+     [exec]    85275 res/layout/fragment_stack.xml (OK - compressed)
+     [exec]    85672 res/layout/fragment_tabs_pager.xml (OK - compressed)
+     [exec]    86158 res/layout/gridview_item_gopreset.xml (OK - compressed)
+     [exec]    86455 res/layout/gridview_item_setpreset.xml (OK - compressed)
+     [exec]    86748 res/layout/listiview_row_login.xml (OK - compressed)
+     [exec]    87427 res/layout/listview_row_backup.xml (OK - compressed)
+     [exec]    88210 res/layout/listview_row_backup_channels.xml (OK - compressed)
+     [exec]    88777 res/layout/listview_row_backup_files.xml (OK - compressed)
+     [exec]    89400 res/layout/listview_row_backup_folder.xml (OK - compressed)
+     [exec]    89795 res/layout/listview_row_log.xml (OK - compressed)
+     [exec]    90608 res/layout/listview_row_login_dvr.xml (OK - compressed)
+     [exec]    91376 res/layout/page_about.xml (OK - compressed)
+     [exec]    91880 res/layout/page_backup.xml (OK - compressed)
+     [exec]    93684 res/layout/page_backup_files.xml (OK - compressed)
+     [exec]    94340 res/layout/page_backup_list.xml (OK - compressed)
+     [exec]    94850 res/layout/page_backup_time_calendar.xml (OK - compressed)
+     [exec]    95600 res/layout/page_edit_dvr_info.xml (OK - compressed)
+     [exec]    96479 res/layout/page_hello.xml (OK - compressed)
+     [exec]    96842 res/layout/page_log_search.xml (OK - compressed)
+     [exec]    98159 res/layout/page_log_search_result.xml (OK - compressed)
+     [exec]    98827 res/layout/page_login.xml (OK - compressed)
+     [exec]    99458 res/layout/page_time_search.xml (OK - compressed)
+     [exec]   100393 res/layout/page_zoom.xml (OK - compressed)
+     [exec]   100752 res/layout/panel_live_landscape.xml (OK - compressed)
+     [exec]   101435 res/layout/panel_live_portrait.xml (OK - compressed)
+     [exec]   102156 res/layout/panel_play_landscape.xml (OK - compressed)
+     [exec]   102807 res/layout/panel_play_portrait.xml (OK - compressed)
+     [exec]   103517 res/layout/popup_4x4.xml (OK - compressed)
+     [exec]   104297 res/layout/popup_8ch.xml (OK - compressed)
+     [exec]   105103 res/layout/popup_backup.xml (OK - compressed)
+     [exec]   105905 res/layout/popup_control.xml (OK - compressed)
+     [exec]   106753 res/layout/popup_division.xml (OK - compressed)
+     [exec]   107574 res/layout/popup_relay_pole.xml (OK - compressed)
+     [exec]   108382 res/layout/popup_relay_second.xml (OK - compressed)
+     [exec]   109201 res/layout/popup_search.xml (OK - compressed)
+     [exec]   109984 res/layout/popup_stream.xml (OK - compressed)
+     [exec]   110873 res/layout/preference_category.xml (OK - compressed)
+     [exec]   111155 res/layout/preset_dialog.xml (OK - compressed)
+     [exec]   111501 res/layout/preset_picker.xml (OK - compressed)
+     [exec]   112015 res/layout/seekbar_preference.xml (OK - compressed)
+     [exec]   112721 res/xml/backup.xml (OK - compressed)
+     [exec]   113479 AndroidManifest.xml (OK - compressed)
+     [exec]   115396 resources.arsc (OK)
+     [exec]   205612 res/drawable-hdpi/background_actionbar.png (OK)
+     [exec]   205932 res/drawable-hdpi/button_back.png (OK)
+     [exec]   207608 res/drawable-hdpi/button_backup.png (OK)
+     [exec]   212916 res/drawable-hdpi/button_backup_disable.png (OK)
+     [exec]   218024 res/drawable-hdpi/button_backup_gobackup.png (OK)
+     [exec]   220604 res/drawable-hdpi/button_backup_gobackup_disable.png (OK)
+     [exec]   223064 res/drawable-hdpi/button_backup_gobackup_high.png (OK)
+     [exec]   227028 res/drawable-hdpi/button_backup_high.png (OK)
+     [exec]   234376 res/drawable-hdpi/button_backup_markin.png (OK)
+     [exec]   238968 res/drawable-hdpi/button_backup_markin_disable.png (OK)
+     [exec]   243340 res/drawable-hdpi/button_backup_markin_high.png (OK)
+     [exec]   248812 res/drawable-hdpi/button_backup_markout.png (OK)
+     [exec]   253584 res/drawable-hdpi/button_backup_markout_disable.png (OK)
+     [exec]   258136 res/drawable-hdpi/button_backup_markout_high.png (OK)
+     [exec]   263748 res/drawable-hdpi/button_div1.png (OK)
+     [exec]   266108 res/drawable-hdpi/button_div16.png (OK)
+     [exec]   269560 res/drawable-hdpi/button_div16_disable.png (OK)
+     [exec]   272764 res/drawable-hdpi/button_div16_high.png (OK)
+     [exec]   277004 res/drawable-hdpi/button_div1_disable.png (OK)
+     [exec]   279300 res/drawable-hdpi/button_div1_high.png (OK)
+     [exec]   282696 res/drawable-hdpi/button_div1_ptz.png (OK)
+     [exec]   286200 res/drawable-hdpi/button_div1_ptz_disable.png (OK)
+     [exec]   289484 res/drawable-hdpi/button_div1_ptz_high.png (OK)
+     [exec]   293960 res/drawable-hdpi/button_div4.png (OK)
+     [exec]   296684 res/drawable-hdpi/button_div4_disable.png (OK)
+     [exec]   299192 res/drawable-hdpi/button_div4_high.png (OK)
+     [exec]   302960 res/drawable-hdpi/button_div9.png (OK)
+     [exec]   305924 res/drawable-hdpi/button_div9_disable.png (OK)
+     [exec]   308640 res/drawable-hdpi/button_div9_high.png (OK)
+     [exec]   313036 res/drawable-hdpi/button_division.png (OK)
+     [exec]   319164 res/drawable-hdpi/button_division_disable.png (OK)
+     [exec]   324492 res/drawable-hdpi/button_division_high.png (OK)
+     [exec]   330124 res/drawable-hdpi/button_eventplay.png (OK)
+     [exec]   334900 res/drawable-hdpi/button_eventplay_disable.png (OK)
+     [exec]   339464 res/drawable-hdpi/button_eventplay_high.png (OK)
+     [exec]   346476 res/drawable-hdpi/button_home.png (OK)
+     [exec]   348556 res/drawable-hdpi/button_motion.png (OK)
+     [exec]   351996 res/drawable-hdpi/button_motion_disable.png (OK)
+     [exec]   355220 res/drawable-hdpi/button_motion_high.png (OK)
+     [exec]   359868 res/drawable-hdpi/button_nc.png (OK)
+     [exec]   361720 res/drawable-hdpi/button_nc_disable.png (OK)
+     [exec]   363520 res/drawable-hdpi/button_nc_high.png (OK)
+     [exec]   366172 res/drawable-hdpi/button_no.png (OK)
+     [exec]   368700 res/drawable-hdpi/button_no_disable.png (OK)
+     [exec]   371140 res/drawable-hdpi/button_no_high.png (OK)
+     [exec]   375312 res/drawable-hdpi/button_notificationoff.png (OK)
+     [exec]   380336 res/drawable-hdpi/button_notificationoff_disable.png (OK)
+     [exec]   385360 res/drawable-hdpi/button_notificationoff_high.png (OK)
+     [exec]   392800 res/drawable-hdpi/button_notificationon.png (OK)
+     [exec]   397952 res/drawable-hdpi/button_notificationon_disable.png (OK)
+     [exec]   402972 res/drawable-hdpi/button_notificationon_high.png (OK)
+     [exec]   410412 res/drawable-hdpi/button_play_forward.png (OK)
+     [exec]   413312 res/drawable-hdpi/button_play_forward_disable.png (OK)
+     [exec]   416040 res/drawable-hdpi/button_play_forward_high.png (OK)
+     [exec]   420076 res/drawable-hdpi/button_play_pause.png (OK)
+     [exec]   421508 res/drawable-hdpi/button_play_pause_disable.png (OK)
+     [exec]   422848 res/drawable-hdpi/button_play_pause_high.png (OK)
+     [exec]   424836 res/drawable-hdpi/button_play_playing.png (OK)
+     [exec]   426752 res/drawable-hdpi/button_play_playing_disable.png (OK)
+     [exec]   428604 res/drawable-hdpi/button_play_playing_high.png (OK)
+     [exec]   431284 res/drawable-hdpi/button_play_rewind.png (OK)
+     [exec]   433988 res/drawable-hdpi/button_play_rewind_disable.png (OK)
+     [exec]   436568 res/drawable-hdpi/button_play_rewind_high.png (OK)
+     [exec]   440536 res/drawable-hdpi/button_play_seek.png (OK)
+     [exec]   444588 res/drawable-hdpi/button_play_seek_disable.png (OK)
+     [exec]   448520 res/drawable-hdpi/button_play_seek_high.png (OK)
+     [exec]   454320 res/drawable-hdpi/button_play_step.png (OK)
+     [exec]   456748 res/drawable-hdpi/button_play_step_disable.png (OK)
+     [exec]   459000 res/drawable-hdpi/button_play_step_high.png (OK)
+     [exec]   462564 res/drawable-hdpi/button_pop_controls.png (OK)
+     [exec]   467600 res/drawable-hdpi/button_pop_controls_disable.png (OK)
+     [exec]   472580 res/drawable-hdpi/button_pop_controls_high.png (OK)
+     [exec]   478424 res/drawable-hdpi/button_pop_search.png (OK)
+     [exec]   482488 res/drawable-hdpi/button_pop_search_disable.png (OK)
+     [exec]   486492 res/drawable-hdpi/button_pop_search_high.png (OK)
+     [exec]   490924 res/drawable-hdpi/button_ptz.png (OK)
+     [exec]   494204 res/drawable-hdpi/button_ptz_disable.png (OK)
+     [exec]   497400 res/drawable-hdpi/button_ptz_focusin.png (OK)
+     [exec]   500764 res/drawable-hdpi/button_ptz_focusin_disable.png (OK)
+     [exec]   503892 res/drawable-hdpi/button_ptz_focusin_high.png (OK)
+     [exec]   508320 res/drawable-hdpi/button_ptz_focusout.png (OK)
+     [exec]   511304 res/drawable-hdpi/button_ptz_focusout_disable.png (OK)
+     [exec]   514100 res/drawable-hdpi/button_ptz_focusout_high.png (OK)
+     [exec]   518288 res/drawable-hdpi/button_ptz_gopreset.png (OK)
+     [exec]   521876 res/drawable-hdpi/button_ptz_gopreset_disable.png (OK)
+     [exec]   525388 res/drawable-hdpi/button_ptz_gopreset_high.png (OK)
+     [exec]   530888 res/drawable-hdpi/button_ptz_high.png (OK)
+     [exec]   535404 res/drawable-hdpi/button_ptz_irisclose.png (OK)
+     [exec]   542796 res/drawable-hdpi/button_ptz_irisclose_disable.png (OK)
+     [exec]   549880 res/drawable-hdpi/button_ptz_irisclose_high.png (OK)
+     [exec]   558704 res/drawable-hdpi/button_ptz_irisopen.png (OK)
+     [exec]   566240 res/drawable-hdpi/button_ptz_irisopen_disable.png (OK)
+     [exec]   573480 res/drawable-hdpi/button_ptz_irisopen_high.png (OK)
+     [exec]   582336 res/drawable-hdpi/button_ptz_setpreset.png (OK)
+     [exec]   585220 res/drawable-hdpi/button_ptz_setpreset_disable.png (OK)
+     [exec]   588060 res/drawable-hdpi/button_ptz_setpreset_high.png (OK)
+     [exec]   592692 res/drawable-hdpi/button_ptz_zoomin.png (OK)
+     [exec]   597460 res/drawable-hdpi/button_ptz_zoomin_disable.png (OK)
+     [exec]   602116 res/drawable-hdpi/button_ptz_zoomin_high.png (OK)
+     [exec]   609160 res/drawable-hdpi/button_ptz_zoomout.png (OK)
+     [exec]   613728 res/drawable-hdpi/button_ptz_zoomout_disable.png (OK)
+     [exec]   618200 res/drawable-hdpi/button_ptz_zoomout_high.png (OK)
+     [exec]   624876 res/drawable-hdpi/button_relay.png (OK)
+     [exec]   626804 res/drawable-hdpi/button_relay_disable.png (OK)
+     [exec]   628644 res/drawable-hdpi/button_relay_high.png (OK)
+     [exec]   631700 res/drawable-hdpi/button_relayauto.png (OK)
+     [exec]   635148 res/drawable-hdpi/button_relayauto_disable.png (OK)
+     [exec]   638476 res/drawable-hdpi/button_relayauto_high.png (OK)
+     [exec]   644336 res/drawable-hdpi/button_sec_01.png (OK)
+     [exec]   646928 res/drawable-hdpi/button_sec_01_disable.png (OK)
+     [exec]   649452 res/drawable-hdpi/button_sec_01_high.png (OK)
+     [exec]   654052 res/drawable-hdpi/button_sec_03.png (OK)
+     [exec]   657560 res/drawable-hdpi/button_sec_03_disable.png (OK)
+     [exec]   661004 res/drawable-hdpi/button_sec_03_high.png (OK)
+     [exec]   667016 res/drawable-hdpi/button_sec_05.png (OK)
+     [exec]   670804 res/drawable-hdpi/button_sec_05_disable.png (OK)
+     [exec]   674404 res/drawable-hdpi/button_sec_05_high.png (OK)
+     [exec]   680496 res/drawable-hdpi/button_sec_08.png (OK)
+     [exec]   684816 res/drawable-hdpi/button_sec_08_disable.png (OK)
+     [exec]   688760 res/drawable-hdpi/button_sec_08_high.png (OK)
+     [exec]   695300 res/drawable-hdpi/button_soundclose.png (OK)
+     [exec]   700452 res/drawable-hdpi/button_soundclose_disable.png (OK)
+     [exec]   705604 res/drawable-hdpi/button_soundclose_high.png (OK)
+     [exec]   712876 res/drawable-hdpi/button_soundopen.png (OK)
+     [exec]   718104 res/drawable-hdpi/button_soundopen_disable.png (OK)
+     [exec]   723252 res/drawable-hdpi/button_soundopen_high.png (OK)
+     [exec]   730524 res/drawable-hdpi/button_status.png (OK)
+     [exec]   736664 res/drawable-hdpi/button_status_disable.png (OK)
+     [exec]   742480 res/drawable-hdpi/button_status_event.png (OK)
+     [exec]   749128 res/drawable-hdpi/button_status_event_disable.png (OK)
+     [exec]   755556 res/drawable-hdpi/button_status_event_high.png (OK)
+     [exec]   762624 res/drawable-hdpi/button_status_high.png (OK)
+     [exec]   769320 res/drawable-hdpi/button_stream_00.png (OK)
+     [exec]   774840 res/drawable-hdpi/button_stream_00_disable.png (OK)
+     [exec]   780120 res/drawable-hdpi/button_stream_00_high.png (OK)
+     [exec]   788236 res/drawable-hdpi/button_stream_01.png (OK)
+     [exec]   793924 res/drawable-hdpi/button_stream_01_disable.png (OK)
+     [exec]   799408 res/drawable-hdpi/button_stream_01_high.png (OK)
+     [exec]   807824 res/drawable-hdpi/button_timeplay.png (OK)
+     [exec]   812980 res/drawable-hdpi/button_timeplay_disable.png (OK)
+     [exec]   817920 res/drawable-hdpi/button_timeplay_high.png (OK)
+     [exec]   825632 res/drawable-hdpi/button_videoloss.png (OK)
+     [exec]   831072 res/drawable-hdpi/button_videoloss_disable.png (OK)
+     [exec]   836572 res/drawable-hdpi/button_videoloss_high.png (OK)
+     [exec]   843140 res/drawable-hdpi/button_zoom.png (OK)
+     [exec]   847588 res/drawable-hdpi/button_zoom_disable.png (OK)
+     [exec]   851952 res/drawable-hdpi/button_zoom_high.png (OK)
+     [exec]   858524 res/drawable-hdpi/dvricon_04.png (OK)
+     [exec]   863072 res/drawable-hdpi/dvricon_08.png (OK)
+     [exec]   868180 res/drawable-hdpi/dvricon_09.png (OK)
+     [exec]   873268 res/drawable-hdpi/dvricon_10.png (OK)
+     [exec]   879432 res/drawable-hdpi/dvricon_16.png (OK)
+     [exec]   885800 res/drawable-hdpi/dvricon_20.png (OK)
+     [exec]   891080 res/drawable-hdpi/dvricon_32.png (OK)
+     [exec]   897708 res/drawable-hdpi/dvricon_unknow.png (OK)
+     [exec]   902576 res/drawable-hdpi/ic_launcher.png (OK)
+     [exec]   912660 res/drawable-hdpi/ic_launcher_actionbar.png (OK)
+     [exec]   916240 res/drawable-ldpi/background_actionbar.png (OK)
+     [exec]   916520 res/drawable-ldpi/button_back.png (OK)
+     [exec]   917912 res/drawable-ldpi/button_backup.png (OK)
+     [exec]   920376 res/drawable-ldpi/button_backup_disable.png (OK)
+     [exec]   922764 res/drawable-ldpi/button_backup_gobackup.png (OK)
+     [exec]   924160 res/drawable-ldpi/button_backup_gobackup_disable.png (OK)
+     [exec]   925452 res/drawable-ldpi/button_backup_gobackup_high.png (OK)
+     [exec]   927220 res/drawable-ldpi/button_backup_high.png (OK)
+     [exec]   930044 res/drawable-ldpi/button_backup_markin.png (OK)
+     [exec]   932112 res/drawable-ldpi/button_backup_markin_disable.png (OK)
+     [exec]   934020 res/drawable-ldpi/button_backup_markin_high.png (OK)
+     [exec]   936244 res/drawable-ldpi/button_backup_markout.png (OK)
+     [exec]   938372 res/drawable-ldpi/button_backup_markout_disable.png (OK)
+     [exec]   939728 res/drawable-ldpi/button_backup_markout_high.png (OK)
+     [exec]   942048 res/drawable-ldpi/button_div1.png (OK)
+     [exec]   943564 res/drawable-ldpi/button_div16.png (OK)
+     [exec]   945620 res/drawable-ldpi/button_div16_disable.png (OK)
+     [exec]   947536 res/drawable-ldpi/button_div16_high.png (OK)
+     [exec]   949748 res/drawable-ldpi/button_div1_disable.png (OK)
+     [exec]   951144 res/drawable-ldpi/button_div1_high.png (OK)
+     [exec]   952864 res/drawable-ldpi/button_div1_ptz.png (OK)
+     [exec]   954876 res/drawable-ldpi/button_div1_ptz_disable.png (OK)
+     [exec]   956696 res/drawable-ldpi/button_div1_ptz_high.png (OK)
+     [exec]   958908 res/drawable-ldpi/button_div4.png (OK)
+     [exec]   960600 res/drawable-ldpi/button_div4_disable.png (OK)
+     [exec]   962132 res/drawable-ldpi/button_div4_high.png (OK)
+     [exec]   964092 res/drawable-ldpi/button_div9.png (OK)
+     [exec]   966116 res/drawable-ldpi/button_div9_disable.png (OK)
+     [exec]   967964 res/drawable-ldpi/button_div9_high.png (OK)
+     [exec]   970152 res/drawable-ldpi/button_division.png (OK)
+     [exec]   973116 res/drawable-ldpi/button_division_disable.png (OK)
+     [exec]   975948 res/drawable-ldpi/button_division_high.png (OK)
+     [exec]   978864 res/drawable-ldpi/button_eventplay.png (OK)
+     [exec]   981260 res/drawable-ldpi/button_eventplay_diable.png (OK)
+     [exec]   983552 res/drawable-ldpi/button_eventplay_disable.png (OK)
+     [exec]   985840 res/drawable-ldpi/button_eventplay_high.png (OK)
+     [exec]   988620 res/drawable-ldpi/button_home.png (OK)
+     [exec]   989888 res/drawable-ldpi/button_motion.png (OK)
+     [exec]   991876 res/drawable-ldpi/button_motion_disable.png (OK)
+     [exec]   993792 res/drawable-ldpi/button_motion_high.png (OK)
+     [exec]   996076 res/drawable-ldpi/button_nc.png (OK)
+     [exec]   997432 res/drawable-ldpi/button_nc_disable.png (OK)
+     [exec]   998844 res/drawable-ldpi/button_nc_high.png (OK)
+     [exec]  1000044 res/drawable-ldpi/button_no.png (OK)
+     [exec]  1001404 res/drawable-ldpi/button_no_disable.png (OK)
+     [exec]  1002720 res/drawable-ldpi/button_no_high.png (OK)
+     [exec]  1004712 res/drawable-ldpi/button_notification_disable.png (OK)
+     [exec]  1006848 res/drawable-ldpi/button_notificationoff.png (OK)
+     [exec]  1008992 res/drawable-ldpi/button_notificationoff_disable.png (OK)
+     [exec]  1011132 res/drawable-ldpi/button_notificationoff_high.png (OK)
+     [exec]  1013816 res/drawable-ldpi/button_notificationon.png (OK)
+     [exec]  1015984 res/drawable-ldpi/button_notificationon_high.png (OK)
+     [exec]  1018664 res/drawable-ldpi/button_play_forward.png (OK)
+     [exec]  1020204 res/drawable-ldpi/button_play_forward_disable.png (OK)
+     [exec]  1021692 res/drawable-ldpi/button_play_forward_high.png (OK)
+     [exec]  1023576 res/drawable-ldpi/button_play_pause.png (OK)
+     [exec]  1024516 res/drawable-ldpi/button_play_pause_disable.png (OK)
+     [exec]  1026208 res/drawable-ldpi/button_play_pause_high.png (OK)
+     [exec]  1027356 res/drawable-ldpi/button_play_playing.png (OK)
+     [exec]  1028892 res/drawable-ldpi/button_play_playing_disable.png (OK)
+     [exec]  1030416 res/drawable-ldpi/button_play_playing_high.png (OK)
+     [exec]  1031684 res/drawable-ldpi/button_play_rewind.png (OK)
+     [exec]  1033240 res/drawable-ldpi/button_play_rewind_disable.png (OK)
+     [exec]  1034700 res/drawable-ldpi/button_play_rewind_high.png (OK)
+     [exec]  1036532 res/drawable-ldpi/button_play_seek.png (OK)
+     [exec]  1038372 res/drawable-ldpi/button_play_seek_disable.png (OK)
+     [exec]  1040152 res/drawable-ldpi/button_play_seek_high.png (OK)
+     [exec]  1042512 res/drawable-ldpi/button_play_step.png (OK)
+     [exec]  1043960 res/drawable-ldpi/button_play_step_disable.png (OK)
+     [exec]  1045312 res/drawable-ldpi/button_play_step_high.png (OK)
+     [exec]  1047100 res/drawable-ldpi/button_pop_controls.png (OK)
+     [exec]  1049384 res/drawable-ldpi/button_pop_controls_disable.png (OK)
+     [exec]  1051568 res/drawable-ldpi/button_pop_controls_high.png (OK)
+     [exec]  1053920 res/drawable-ldpi/button_pop_search.png (OK)
+     [exec]  1056004 res/drawable-ldpi/button_pop_search_disable.png (OK)
+     [exec]  1058036 res/drawable-ldpi/button_pop_search_high.png (OK)
+     [exec]  1060068 res/drawable-ldpi/button_ptz.png (OK)
+     [exec]  1061772 res/drawable-ldpi/button_ptz_disable.png (OK)
+     [exec]  1063428 res/drawable-ldpi/button_ptz_focusin.png (OK)
+     [exec]  1065252 res/drawable-ldpi/button_ptz_focusin_disable.png (OK)
+     [exec]  1067004 res/drawable-ldpi/button_ptz_focusin_high.png (OK)
+     [exec]  1069064 res/drawable-ldpi/button_ptz_focusout.png (OK)
+     [exec]  1070664 res/drawable-ldpi/button_ptz_focusout_disable.png (OK)
+     [exec]  1072172 res/drawable-ldpi/button_ptz_focusout_high.png (OK)
+     [exec]  1074148 res/drawable-ldpi/button_ptz_gopreset.png (OK)
+     [exec]  1075944 res/drawable-ldpi/button_ptz_gopreset_disable.png (OK)
+     [exec]  1077688 res/drawable-ldpi/button_ptz_gopreset_high.png (OK)
+     [exec]  1079908 res/drawable-ldpi/button_ptz_high.png (OK)
+     [exec]  1081876 res/drawable-ldpi/button_ptz_irisclose.png (OK)
+     [exec]  1084868 res/drawable-ldpi/button_ptz_irisclose_disable.png (OK)
+     [exec]  1087756 res/drawable-ldpi/button_ptz_irisclose_high.png (OK)
+     [exec]  1090940 res/drawable-ldpi/button_ptz_irisopen.png (OK)
+     [exec]  1093900 res/drawable-ldpi/button_ptz_irisopen_disable.png (OK)
+     [exec]  1096756 res/drawable-ldpi/button_ptz_irisopen_high.png (OK)
+     [exec]  1099984 res/drawable-ldpi/button_ptz_setpreset.png (OK)
+     [exec]  1101512 res/drawable-ldpi/button_ptz_setpreset_disable.png (OK)
+     [exec]  1103020 res/drawable-ldpi/button_ptz_setpreset_high.png (OK)
+     [exec]  1104908 res/drawable-ldpi/button_ptz_zoomin.png (OK)
+     [exec]  1107224 res/drawable-ldpi/button_ptz_zoomin_disable.png (OK)
+     [exec]  1109500 res/drawable-ldpi/button_ptz_zoomin_high.png (OK)
+     [exec]  1112132 res/drawable-ldpi/button_ptz_zoomout.png (OK)
+     [exec]  1114268 res/drawable-ldpi/button_ptz_zoomout_disable.png (OK)
+     [exec]  1116332 res/drawable-ldpi/button_ptz_zoomout_high.png (OK)
+     [exec]  1118852 res/drawable-ldpi/button_relay.png (OK)
+     [exec]  1120272 res/drawable-ldpi/button_relay_disable.png (OK)
+     [exec]  1121712 res/drawable-ldpi/button_relay_high.png (OK)
+     [exec]  1123124 res/drawable-ldpi/button_relayauto.png (OK)
+     [exec]  1124944 res/drawable-ldpi/button_relayauto_disable.png (OK)
+     [exec]  1126704 res/drawable-ldpi/button_relayauto_high.png (OK)
+     [exec]  1129056 res/drawable-ldpi/button_sec_01.png (OK)
+     [exec]  1130528 res/drawable-ldpi/button_sec_01_disable.png (OK)
+     [exec]  1131944 res/drawable-ldpi/button_sec_01_high.png (OK)
+     [exec]  1133920 res/drawable-ldpi/button_sec_03.png (OK)
+     [exec]  1135812 res/drawable-ldpi/button_sec_03_disable.png (OK)
+     [exec]  1137664 res/drawable-ldpi/button_sec_03_high.png (OK)
+     [exec]  1140116 res/drawable-ldpi/button_sec_05.png (OK)
+     [exec]  1142052 res/drawable-ldpi/button_sec_05_disable.png (OK)
+     [exec]  1143956 res/drawable-ldpi/button_sec_05_high.png (OK)
+     [exec]  1146364 res/drawable-ldpi/button_sec_08.png (OK)
+     [exec]  1148448 res/drawable-ldpi/button_sec_08_disable.png (OK)
+     [exec]  1150452 res/drawable-ldpi/button_sec_08_high.png (OK)
+     [exec]  1152972 res/drawable-ldpi/button_soundclose.png (OK)
+     [exec]  1155040 res/drawable-ldpi/button_soundclose_disable.png (OK)
+     [exec]  1157104 res/drawable-ldpi/button_soundclose_high.png (OK)
+     [exec]  1159576 res/drawable-ldpi/button_soundopen.png (OK)
+     [exec]  1161684 res/drawable-ldpi/button_soundopen_disable.png (OK)
+     [exec]  1163748 res/drawable-ldpi/button_soundopen_high.png (OK)
+     [exec]  1166216 res/drawable-ldpi/button_status.png (OK)
+     [exec]  1169136 res/drawable-ldpi/button_status_disable.png (OK)
+     [exec]  1171988 res/drawable-ldpi/button_status_event.png (OK)
+     [exec]  1175116 res/drawable-ldpi/button_status_event_disable.png (OK)
+     [exec]  1178212 res/drawable-ldpi/button_status_event_high.png (OK)
+     [exec]  1181296 res/drawable-ldpi/button_status_high.png (OK)
+     [exec]  1184184 res/drawable-ldpi/button_stream_00.png (OK)
+     [exec]  1186788 res/drawable-ldpi/button_stream_00_disable.png (OK)
+     [exec]  1189304 res/drawable-ldpi/button_stream_00_high.png (OK)
+     [exec]  1192608 res/drawable-ldpi/button_stream_01.png (OK)
+     [exec]  1195264 res/drawable-ldpi/button_stream_01_disable.png (OK)
+     [exec]  1197824 res/drawable-ldpi/button_stream_01_high.png (OK)
+     [exec]  1201112 res/drawable-ldpi/button_timeplay.png (OK)
+     [exec]  1203444 res/drawable-ldpi/button_timeplay_disable.png (OK)
+     [exec]  1205712 res/drawable-ldpi/button_timeplay_high.png (OK)
+     [exec]  1208700 res/drawable-ldpi/button_videoloss.png (OK)
+     [exec]  1210860 res/drawable-ldpi/button_videoloss_disable.png (OK)
+     [exec]  1212992 res/drawable-ldpi/button_videoloss_high.png (OK)
+     [exec]  1215452 res/drawable-ldpi/button_zoom.png (OK)
+     [exec]  1217460 res/drawable-ldpi/button_zoom_disable.png (OK)
+     [exec]  1219444 res/drawable-ldpi/button_zoom_high.png (OK)
+     [exec]  1221888 res/drawable-ldpi/dvricon_04.png (OK)
+     [exec]  1224160 res/drawable-ldpi/dvricon_08.png (OK)
+     [exec]  1226676 res/drawable-ldpi/dvricon_09.png (OK)
+     [exec]  1229204 res/drawable-ldpi/dvricon_10.png (OK)
+     [exec]  1232048 res/drawable-ldpi/dvricon_16.png (OK)
+     [exec]  1234932 res/drawable-ldpi/dvricon_20.png (OK)
+     [exec]  1237708 res/drawable-ldpi/dvricon_32.png (OK)
+     [exec]  1240688 res/drawable-ldpi/dvricon_unknow.png (OK)
+     [exec]  1243040 res/drawable-ldpi/ic_launcher.png (OK)
+     [exec]  1246732 res/drawable-ldpi/ic_launcher_actionbar.png (OK)
+     [exec]  1247960 res/drawable-mdpi/background_actionbar.png (OK)
+     [exec]  1248280 res/drawable-mdpi/button_back.png (OK)
+     [exec]  1249652 res/drawable-mdpi/button_backup.png (OK)
+     [exec]  1253024 res/drawable-mdpi/button_backup_disable.png (OK)
+     [exec]  1256296 res/drawable-mdpi/button_backup_gobackup.png (OK)
+     [exec]  1257956 res/drawable-mdpi/button_backup_gobackup_disable.png (OK)
+     [exec]  1259548 res/drawable-mdpi/button_backup_gobackup_high.png (OK)
+     [exec]  1261944 res/drawable-mdpi/button_backup_high.png (OK)
+     [exec]  1266240 res/drawable-mdpi/button_backup_markin.png (OK)
+     [exec]  1268988 res/drawable-mdpi/button_backup_markin_disable.png (OK)
+     [exec]  1271588 res/drawable-mdpi/button_backup_markin_high.png (OK)
+     [exec]  1274720 res/drawable-mdpi/button_backup_markout.png (OK)
+     [exec]  1277568 res/drawable-mdpi/button_backup_markout_disable.png (OK)
+     [exec]  1279324 res/drawable-mdpi/button_backup_markout_high.png (OK)
+     [exec]  1282620 res/drawable-mdpi/button_div1.png (OK)
+     [exec]  1284412 res/drawable-mdpi/button_div16.png (OK)
+     [exec]  1286796 res/drawable-mdpi/button_div16_disable.png (OK)
+     [exec]  1289036 res/drawable-mdpi/button_div16_high.png (OK)
+     [exec]  1291832 res/drawable-mdpi/button_div1_disable.png (OK)
+     [exec]  1293460 res/drawable-mdpi/button_div1_high.png (OK)
+     [exec]  1295632 res/drawable-mdpi/button_div1_ptz.png (OK)
+     [exec]  1298072 res/drawable-mdpi/button_div1_ptz_disable.png (OK)
+     [exec]  1300280 res/drawable-mdpi/button_div1_ptz_high.png (OK)
+     [exec]  1303256 res/drawable-mdpi/button_div4.png (OK)
+     [exec]  1305240 res/drawable-mdpi/button_div4_disable.png (OK)
+     [exec]  1307076 res/drawable-mdpi/button_div4_high.png (OK)
+     [exec]  1309540 res/drawable-mdpi/button_div9.png (OK)
+     [exec]  1311872 res/drawable-mdpi/button_div9_disable.png (OK)
+     [exec]  1314048 res/drawable-mdpi/button_div9_high.png (OK)
+     [exec]  1316792 res/drawable-mdpi/button_division.png (OK)
+     [exec]  1320588 res/drawable-mdpi/button_division_disable.png (OK)
+     [exec]  1324224 res/drawable-mdpi/button_division_high.png (OK)
+     [exec]  1328092 res/drawable-mdpi/button_eventplay.png (OK)
+     [exec]  1331160 res/drawable-mdpi/button_eventplay_disable.png (OK)
+     [exec]  1334128 res/drawable-mdpi/button_eventplay_high.png (OK)
+     [exec]  1338312 res/drawable-mdpi/button_home.png (OK)
+     [exec]  1339992 res/drawable-mdpi/button_motion.png (OK)
+     [exec]  1342472 res/drawable-mdpi/button_motion_disable.png (OK)
+     [exec]  1344868 res/drawable-mdpi/button_motion_high.png (OK)
+     [exec]  1348020 res/drawable-mdpi/button_nc.png (OK)
+     [exec]  1349240 res/drawable-mdpi/button_nc_disable.png (OK)
+     [exec]  1350448 res/drawable-mdpi/button_nc_high.png (OK)
+     [exec]  1352112 res/drawable-mdpi/button_no.png (OK)
+     [exec]  1353852 res/drawable-mdpi/button_no_disable.png (OK)
+     [exec]  1355500 res/drawable-mdpi/button_no_high.png (OK)
+     [exec]  1358212 res/drawable-mdpi/button_notificationoff.png (OK)
+     [exec]  1361392 res/drawable-mdpi/button_notificationoff_disable.png (OK)
+     [exec]  1364568 res/drawable-mdpi/button_notificationoff_high.png (OK)
+     [exec]  1368736 res/drawable-mdpi/button_notificationon.png (OK)
+     [exec]  1372020 res/drawable-mdpi/button_notificationon_disable.png (OK)
+     [exec]  1375196 res/drawable-mdpi/button_notificationon_high.png (OK)
+     [exec]  1379360 res/drawable-mdpi/button_play_forward.png (OK)
+     [exec]  1381376 res/drawable-mdpi/button_play_forward_disable.png (OK)
+     [exec]  1383292 res/drawable-mdpi/button_play_forward_high.png (OK)
+     [exec]  1385896 res/drawable-mdpi/button_play_pause.png (OK)
+     [exec]  1386964 res/drawable-mdpi/button_play_pause_disable.png (OK)
+     [exec]  1387948 res/drawable-mdpi/button_play_pause_high.png (OK)
+     [exec]  1389364 res/drawable-mdpi/button_play_playing.png (OK)
+     [exec]  1390688 res/drawable-mdpi/button_play_playing_disable.png (OK)
+     [exec]  1391996 res/drawable-mdpi/button_play_playing_high.png (OK)
+     [exec]  1393712 res/drawable-mdpi/button_play_rewind.png (OK)
+     [exec]  1395664 res/drawable-mdpi/button_play_rewind_disable.png (OK)
+     [exec]  1397512 res/drawable-mdpi/button_play_rewind_high.png (OK)
+     [exec]  1400008 res/drawable-mdpi/button_play_seek.png (OK)
+     [exec]  1402488 res/drawable-mdpi/button_play_seek_disable.png (OK)
+     [exec]  1404916 res/drawable-mdpi/button_play_seek_high.png (OK)
+     [exec]  1408452 res/drawable-mdpi/button_play_step.png (OK)
+     [exec]  1410228 res/drawable-mdpi/button_play_step_disable.png (OK)
+     [exec]  1411860 res/drawable-mdpi/button_play_step_high.png (OK)
+     [exec]  1414248 res/drawable-mdpi/button_pop_controls.png (OK)
+     [exec]  1417468 res/drawable-mdpi/button_pop_controls_disable.png (OK)
+     [exec]  1420632 res/drawable-mdpi/button_pop_controls_high.png (OK)
+     [exec]  1424160 res/drawable-mdpi/button_pop_search.png (OK)
+     [exec]  1426896 res/drawable-mdpi/button_pop_search_disable.png (OK)
+     [exec]  1429584 res/drawable-mdpi/button_pop_search_high.png (OK)
+     [exec]  1432364 res/drawable-mdpi/button_ptz.png (OK)
+     [exec]  1434540 res/drawable-mdpi/button_ptz_disable.png (OK)
+     [exec]  1436680 res/drawable-mdpi/button_ptz_focusin.png (OK)
+     [exec]  1438976 res/drawable-mdpi/button_ptz_focusin_disable.png (OK)
+     [exec]  1441128 res/drawable-mdpi/button_ptz_focusin_high.png (OK)
+     [exec]  1443980 res/drawable-mdpi/button_ptz_focusout.png (OK)
+     [exec]  1445976 res/drawable-mdpi/button_ptz_focusout_disable.png (OK)
+     [exec]  1447872 res/drawable-mdpi/button_ptz_focusout_high.png (OK)
+     [exec]  1450488 res/drawable-mdpi/button_ptz_gopreset.png (OK)
+     [exec]  1452840 res/drawable-mdpi/button_ptz_gopreset_disable.png (OK)
+     [exec]  1455132 res/drawable-mdpi/button_ptz_gopreset_high.png (OK)
+     [exec]  1458380 res/drawable-mdpi/button_ptz_high.png (OK)
+     [exec]  1461124 res/drawable-mdpi/button_ptz_irisclose.png (OK)
+     [exec]  1465444 res/drawable-mdpi/button_ptz_irisclose_disable.png (OK)
+     [exec]  1469620 res/drawable-mdpi/button_ptz_irisclose_high.png (OK)
+     [exec]  1474588 res/drawable-mdpi/button_ptz_irisopen.png (OK)
+     [exec]  1478948 res/drawable-mdpi/button_ptz_irisopen_disable.png (OK)
+     [exec]  1483168 res/drawable-mdpi/button_ptz_irisopen_high.png (OK)
+     [exec]  1488136 res/drawable-mdpi/button_ptz_setpreset.png (OK)
+     [exec]  1490136 res/drawable-mdpi/button_ptz_setpreset_disable.png (OK)
+     [exec]  1492096 res/drawable-mdpi/button_ptz_setpreset_high.png (OK)
+     [exec]  1494772 res/drawable-mdpi/button_ptz_zoomin.png (OK)
+     [exec]  1497992 res/drawable-mdpi/button_ptz_zoomin_disable.png (OK)
+     [exec]  1501156 res/drawable-mdpi/button_ptz_zoomin_high.png (OK)
+     [exec]  1505200 res/drawable-mdpi/button_ptz_zoomout.png (OK)
+     [exec]  1508128 res/drawable-mdpi/button_ptz_zoomout_disable.png (OK)
+     [exec]  1510992 res/drawable-mdpi/button_ptz_zoomout_high.png (OK)
+     [exec]  1514796 res/drawable-mdpi/button_relay.png (OK)
+     [exec]  1516068 res/drawable-mdpi/button_relay_disable.png (OK)
+     [exec]  1517320 res/drawable-mdpi/button_relay_high.png (OK)
+     [exec]  1519288 res/drawable-mdpi/button_relayauto.png (OK)
+     [exec]  1521624 res/drawable-mdpi/button_relayauto_disable.png (OK)
+     [exec]  1523876 res/drawable-mdpi/button_relayauto_high.png (OK)
+     [exec]  1527372 res/drawable-mdpi/button_sec_01.png (OK)
+     [exec]  1529228 res/drawable-mdpi/button_sec_01_disable.png (OK)
+     [exec]  1530992 res/drawable-mdpi/button_sec_01_high.png (OK)
+     [exec]  1533828 res/drawable-mdpi/button_sec_03.png (OK)
+     [exec]  1536224 res/drawable-mdpi/button_sec_03_disable.png (OK)
+     [exec]  1538588 res/drawable-mdpi/button_sec_03_high.png (OK)
+     [exec]  1542176 res/drawable-mdpi/button_sec_05.png (OK)
+     [exec]  1544696 res/drawable-mdpi/button_sec_05_disable.png (OK)
+     [exec]  1547136 res/drawable-mdpi/button_sec_05_high.png (OK)
+     [exec]  1550688 res/drawable-mdpi/button_sec_08.png (OK)
+     [exec]  1553428 res/drawable-mdpi/button_sec_08_disable.png (OK)
+     [exec]  1556048 res/drawable-mdpi/button_sec_08_high.png (OK)
+     [exec]  1559792 res/drawable-mdpi/button_soundclose.png (OK)
+     [exec]  1562780 res/drawable-mdpi/button_soundclose_disable.png (OK)
+     [exec]  1565764 res/drawable-mdpi/button_soundclose_high.png (OK)
+     [exec]  1569608 res/drawable-mdpi/button_soundopen.png (OK)
+     [exec]  1572632 res/drawable-mdpi/button_soundopen_disable.png (OK)
+     [exec]  1575616 res/drawable-mdpi/button_soundopen_high.png (OK)
+     [exec]  1579460 res/drawable-mdpi/button_status.png (OK)
+     [exec]  1583392 res/drawable-mdpi/button_status_disable.png (OK)
+     [exec]  1587164 res/drawable-mdpi/button_status_event.png (OK)
+     [exec]  1591432 res/drawable-mdpi/button_status_event_disable.png (OK)
+     [exec]  1595576 res/drawable-mdpi/button_status_event_high.png (OK)
+     [exec]  1599864 res/drawable-mdpi/button_status_high.png (OK)
+     [exec]  1603844 res/drawable-mdpi/button_stream_00.png (OK)
+     [exec]  1607488 res/drawable-mdpi/button_stream_00_disable.png (OK)
+     [exec]  1611000 res/drawable-mdpi/button_stream_00_high.png (OK)
+     [exec]  1616076 res/drawable-mdpi/button_stream_01.png (OK)
+     [exec]  1619828 res/drawable-mdpi/button_stream_01_disable.png (OK)
+     [exec]  1623432 res/drawable-mdpi/button_stream_01_high.png (OK)
+     [exec]  1628584 res/drawable-mdpi/button_timeplay.png (OK)
+     [exec]  1631724 res/drawable-mdpi/button_timeplay_disable.png (OK)
+     [exec]  1634816 res/drawable-mdpi/button_timeplay_high.png (OK)
+     [exec]  1639272 res/drawable-mdpi/button_videoloss.png (OK)
+     [exec]  1642316 res/drawable-mdpi/button_videoloss_disable.png (OK)
+     [exec]  1645340 res/drawable-mdpi/button_videoloss_high.png (OK)
+     [exec]  1648800 res/drawable-mdpi/button_zoom.png (OK)
+     [exec]  1651588 res/drawable-mdpi/button_zoom_disable.png (OK)
+     [exec]  1654332 res/drawable-mdpi/button_zoom_high.png (OK)
+     [exec]  1658052 res/drawable-mdpi/dvricon_04.png (OK)
+     [exec]  1660940 res/drawable-mdpi/dvricon_08.png (OK)
+     [exec]  1664156 res/drawable-mdpi/dvricon_09.png (OK)
+     [exec]  1667428 res/drawable-mdpi/dvricon_10.png (OK)
+     [exec]  1671292 res/drawable-mdpi/dvricon_16.png (OK)
+     [exec]  1675260 res/drawable-mdpi/dvricon_20.png (OK)
+     [exec]  1678872 res/drawable-mdpi/dvricon_32.png (OK)
+     [exec]  1683012 res/drawable-mdpi/dvricon_unknow.png (OK)
+     [exec]  1686108 res/drawable-mdpi/ic_launcher.png (OK)
+     [exec]  1691744 res/drawable-mdpi/ic_launcher_actionbar.png (OK)
+     [exec]  1693614 res/layout-land/actionbar.xml (OK - compressed)
+     [exec]  1694204 res/layout-land/actionbar_home.xml (OK - compressed)
+     [exec]  1694781 res/layout-land/main.xml (OK - compressed)
+     [exec]  1695366 res/layout-land/page_play.xml (OK - compressed)
+     [exec]  1695942 res/layout-land/page_ptz.xml (OK - compressed)
+     [exec]  1696380 res/layout-land/page_relay.xml (OK - compressed)
+     [exec]  1696820 res/layout-land/panel_live.xml (OK - compressed)
+     [exec]  1697605 res/layout-land/panel_play.xml (OK - compressed)
+     [exec]  1698328 res/layout-land/panel_ptz.xml (OK - compressed)
+     [exec]  1699134 res/layout-land/panel_relay.xml (OK - compressed)
+     [exec]  1699718 res/layout-land/popup_1x1.xml (OK - compressed)
+     [exec]  1700965 res/layout-land/popup_2x2.xml (OK - compressed)
+     [exec]  1701833 res/layout-land/popup_status.xml (OK - compressed)
+     [exec]  1704393 res/layout-port/actionbar.xml (OK - compressed)
+     [exec]  1704979 res/layout-port/actionbar_home.xml (OK - compressed)
+     [exec]  1705553 res/layout-port/main.xml (OK - compressed)
+     [exec]  1706178 res/layout-port/page_play.xml (OK - compressed)
+     [exec]  1706802 res/layout-port/page_ptz.xml (OK - compressed)
+     [exec]  1707289 res/layout-port/page_relay.xml (OK - compressed)
+     [exec]  1707747 res/layout-port/panel_live.xml (OK - compressed)
+     [exec]  1708524 res/layout-port/panel_play.xml (OK - compressed)
+     [exec]  1709284 res/layout-port/panel_ptz.xml (OK - compressed)
+     [exec]  1709906 res/layout-port/panel_relay.xml (OK - compressed)
+     [exec]  1710520 res/layout-port/popup_1x1.xml (OK - compressed)
+     [exec]  1711818 res/layout-port/popup_2x2.xml (OK - compressed)
+     [exec]  1712713 res/layout-port/popup_status.xml (OK - compressed)
+     [exec]  1715255 classes.dex (OK - compressed)
+     [exec]  1963431 lib/armeabi/libP2PTunnelAPIs.so (OK - compressed)
+     [exec]  2029827 lib/armeabi/libpeersdk-jni.so (OK - compressed)
+     [exec] Verification succesful
+   [delete] Deleting: /home/rd/share/autobuild_android-apk_11298/iWatchDVR2/bin/unzipalign_Brighton_Zeviewer.apk
+   [delete] Deleting: /home/rd/share/autobuild_android-apk_11298/iWatchDVR2/bin/unsigned_Brighton_Zeviewer.apk
+
+availableReleaseDir:
+
+mkReleaseDir:
+    [mkdir] Created dir: /home/rd/share/autobuild_android-apk_11298/release
+
+release:
+     [copy] Copying 1 file to /home/rd/share/autobuild_android-apk_11298/release
+
+BUILD SUCCESSFUL
+Total time: 29 seconds

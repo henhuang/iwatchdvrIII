@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:background="@android:color/white">
+
+    <TextView 
+	       android:id="@+id/button_rewind"
+	       android:text="@string/rewind"
+	       style="@style/ToolbarButton"
+	       android:drawableTop="@drawable/selector_button_rewind"
+	   />
+	   <TextView 
+	       android:id="@+id/button_pause"
+	       android:text="@string/pause"
+	       style="@style/ToolbarButton"
+	       android:drawableTop="@drawable/selector_button_pause"
+	   />
+	   <TextView 
+	       android:id="@+id/button_forward"
+	       android:text="@string/forward"
+	       style="@style/ToolbarButton"
+	       android:drawableTop="@drawable/selector_button_forward"
+	   />
+	   <TextView 
+	       android:id="@+id/button_step"
+	       android:text="@string/step"
+	       style="@style/ToolbarButton"
+	       android:drawableTop="@drawable/selector_button_step"
+	   />
+	   <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:layout_width="wrap_content"
+    		android:layout_height="fill_parent"
+    		android:layout_weight="1">
+	   		<TextView 
+	       		android:id="@+id/button_mainStream"
+	       		android:text="@string/mainStream"
+	       		style="@style/ToolbarButton"
+	       		android:drawableTop="@drawable/selector_button_mainstream" />
+	   		<TextView 
+	       		android:id="@+id/button_subStream"
+	       		android:text="@string/subStream"
+	       		style="@style/ToolbarButton"
+	       		android:drawableTop="@drawable/selector_button_substream" />
+	   </RelativeLayout>
+	   <TextView 
+	       android:id="@+id/button_division"
+	       android:text="@string/division"
+	       style="@style/ToolbarButton"
+	       android:drawableTop="@drawable/selector_button_division"
+	   />
+	   <TextView 
+	       android:id="@+id/button_backup"
+	       android:text="@string/backup"
+	       style="@style/ToolbarButton"
+	       android:drawableTop="@drawable/selector_button_backup"
+	   />
+
+	   	<TextView 
+	        android:id="@+id/button_seek"
+	   		android:text="@string/seek"
+	    	style="@style/ToolbarButton"
+	    	android:drawableTop="@drawable/selector_button_seek" />
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">    
+       <TextView android:id="@+id/zoomIn"
+           android:text="@string/zoomIn"
+           style="@style/ToolbarButton"
+           android:drawableTop="@drawable/selector_button_zoomin" />
+       
+       <TextView android:id="@+id/irisOpen"
+           android:text="@string/irisOpen"
+           style="@style/ToolbarButton"
+           android:drawableTop="@drawable/selector_button_iris_open" />
+       
+       <TextView android:id="@+id/focusIn"
+           android:text="@string/focusIn"
+           style="@style/ToolbarButton"
+           android:drawableTop="@drawable/selector_button_focusin" />
+       
+       <TextView android:id="@+id/setPreset"
+           android:text="@string/setPreset"
+           style="@style/ToolbarButton"
+           android:drawableTop="@drawable/selector_button_set_preset" />
+       
+   </LinearLayout>
+   <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+      
+        <TextView android:id="@+id/zoomOut"
+            android:text="@string/zoomOut"
+            style="@style/ToolbarButton"
+            android:drawableTop="@drawable/selector_button_zoomout" />
+
+       <TextView android:id="@+id/irisClose"
+           android:text="@string/irisClose"
+           style="@style/ToolbarButton"
+           android:drawableTop="@drawable/selector_button_iris_close" />
+       
+       <TextView android:id="@+id/focusOut"
+           android:text="@string/focusOut"
+           style="@style/ToolbarButton"
+           android:drawableTop="@drawable/selector_button_focusout" />
+       
+       <TextView android:id="@+id/goPreset"
+           android:text="@string/goPreset"
+           style="@style/ToolbarButton"
+           android:drawableTop="@drawable/selector_button_set_preset" />
+       
+   </LinearLayout>
+</LinearLayout>

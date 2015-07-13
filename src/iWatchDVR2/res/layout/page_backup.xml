@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="?android:attr/listPreferredItemHeight">
+		<Button android:id="@+id/button_back"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="6dip"
+			android:text="@string/back" />
+		<TextView  
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" 
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:text="@string/backup" />
+	</LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+	    <ScrollView
+		    android:layout_height="match_parent"
+		    android:layout_width="match_parent"
+		    android:id="@+id/settingContainer">
+		    <LinearLayout
+		        android:orientation="vertical" 
+		        android:layout_height="match_parent"
+		        android:layout_width="match_parent">
+		        
+			    <TextView 
+			        android:text="@string/duration"
+			        style="@style/PreferenceHeader" />
+			    
+			    <!-- startTime -->
+				<LinearLayout android:id="@+id/backup_startTime_row"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:gravity="center_vertical"
+				    android:paddingRight="?android:attr/scrollbarSize"
+				    android:background="@android:drawable/list_selector_background"
+				    android:orientation="vertical"
+				    android:paddingTop="10dp"
+				    android:paddingBottom="10dp"
+				    android:clickable="true">
+				    
+				        <TextView
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:singleLine="true"
+				            android:textAppearance="?android:attr/textAppearanceLarge"
+				            android:ellipsize="marquee"
+				            android:fadingEdge="horizontal"
+				            android:text="@string/startTime"
+				            android:layout_weight="1" />
+				            
+				        <TextView android:id="@+id/backup_startTime"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:gravity="right"
+				            android:textAppearance="?android:attr/textAppearanceSmall"
+				            android:maxLines="4"
+				            android:text="00:00:00" />
+				</LinearLayout>
+				
+			    <!-- endTime -->
+				<LinearLayout android:id="@+id/backup_endTime_row"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:gravity="center_vertical"
+				    android:paddingRight="?android:attr/scrollbarSize"
+				    android:background="@android:drawable/list_selector_background"
+				    android:orientation="vertical" 
+				    android:paddingTop="10dp"
+				    android:paddingBottom="10dp"
+				    android:clickable="true">
+				    
+				        <TextView
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:singleLine="true"
+				            android:textAppearance="?android:attr/textAppearanceLarge"
+				            android:ellipsize="marquee"
+				            android:fadingEdge="horizontal"
+				            android:text="@string/endTime"
+				            android:layout_weight="1" />
+				            
+				        <TextView android:id="@+id/backup_endTime"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:gravity="right"
+				            android:textAppearance="?android:attr/textAppearanceSmall"
+				            android:maxLines="4"
+				            android:text="00:00:00" />
+				</LinearLayout>
+				<LinearLayout 
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:gravity="center_vertical"
+				    android:paddingRight="?android:attr/scrollbarSize"
+				    android:background="@android:drawable/list_selector_background"
+				    android:orientation="vertical">
+				    <LinearLayout 
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:gravity="center_vertical"
+					    android:paddingRight="?android:attr/scrollbarSize">
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:singleLine="true"
+					        android:textAppearance="?android:attr/textAppearanceLarge"
+					        android:ellipsize="marquee"
+					        android:fadingEdge="horizontal"
+					        android:text="@string/duration"
+					        android:layout_weight="1" />
+					    <TextView android:id="@+id/backup_duration"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:gravity="right|center_vertical"
+					        android:singleLine="true"
+					        android:textAppearance="?android:attr/textAppearanceSmall"
+					        android:ellipsize="marquee"
+					        android:fadingEdge="horizontal"
+					        android:text="0"
+					        android:layout_weight="1" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:gravity="right|center_vertical"
+					        android:singleLine="true"
+					        android:textAppearance="?android:attr/textAppearanceSmall"
+					        android:ellipsize="marquee"
+					        android:fadingEdge="horizontal"
+					        android:paddingLeft="5sp"
+					        android:text="minute(s)" />
+					</LinearLayout>
+				    <SeekBar android:id="@+id/backup_seekbar"
+				        android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:layout_margin="10dp"
+						android:paddingBottom="10dp"
+						android:max="30"
+						android:progress="0">
+				    </SeekBar>
+				</LinearLayout>
+				
+				
+				<!-- backup channels -->
+				<TextView 
+			        android:text="@string/backupChannels"
+			        style="@style/PreferenceHeader" />
+			         
+				<LinearLayout android:id="@+id/backup_channels_row"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:gravity="center_vertical"
+				    android:paddingRight="?android:attr/scrollbarSize"
+				    android:background="@android:drawable/list_selector_background"
+				    android:orientation="vertical"
+				    android:paddingTop="20px"
+				    android:paddingBottom="20px"
+				    android:clickable="true">
+				    
+					<TextView
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:singleLine="true"
+					    android:textAppearance="?android:attr/textAppearanceLarge"
+					    android:ellipsize="marquee"
+					    android:fadingEdge="horizontal"
+					    android:text="@string/channels"
+					    android:layout_weight="1" />
+				</LinearLayout>
+				
+				<!-- backup space -->
+				<TextView 
+			        android:text="@string/backupSpace"
+			        style="@style/PreferenceHeader" />
+			         
+				<LinearLayout android:id="@+id/backup_systemFreeSapce_row"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:gravity="center_vertical"
+				    android:paddingRight="?android:attr/scrollbarSize"
+				    android:background="@android:drawable/list_selector_background"
+				    android:orientation="vertical" 
+				    android:paddingTop="10px"
+				    android:paddingBottom="10px">
+				    
+				        <TextView
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:singleLine="true"
+				            android:textAppearance="?android:attr/textAppearanceLarge"
+				            android:ellipsize="marquee"
+				            android:fadingEdge="horizontal"
+				            android:text="@string/systemFreeSpace"
+				            android:layout_weight="1" />
+				        <LinearLayout 
+						    android:layout_width="match_parent"
+						    android:layout_height="wrap_content"
+						    android:gravity="center_vertical"
+						    android:paddingRight="?android:attr/scrollbarSize">     
+					        <TextView android:id="@+id/backup_systemFreeSapce"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:gravity="right"
+					            android:textAppearance="?android:attr/textAppearanceSmall"
+					            android:maxLines="4"
+					            android:text="--" />
+					        <TextView android:id="@+id/backup_systemFreeSapce"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:paddingLeft="5sp"
+					            android:textAppearance="?android:attr/textAppearanceSmall"
+					            android:maxLines="4"
+					            android:text="MB" />
+						</LinearLayout>    
+				</LinearLayout>
+				<LinearLayout android:id="@+id/backup_requiredSpace_row"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:gravity="center_vertical"
+				    android:paddingRight="?android:attr/scrollbarSize"
+				    android:background="@android:drawable/list_selector_background"
+				    android:orientation="vertical" 
+				    android:paddingTop="10px"
+				    android:paddingBottom="10px">
+				    
+				        <TextView
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:singleLine="true"
+				            android:textAppearance="?android:attr/textAppearanceLarge"
+				            android:ellipsize="marquee"
+				            android:fadingEdge="horizontal"
+				            android:text="@string/requiredSpace"
+				            android:layout_weight="1" />
+				            
+				        <TextView android:id="@+id/backup_requiredSpace"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:gravity="right"
+				            android:textAppearance="?android:attr/textAppearanceSmall"
+				            android:maxLines="4"
+				            android:text="--" />
+				</LinearLayout>
+				<RelativeLayout
+			    	android:layout_width="wrap_content"
+			    	android:layout_height="wrap_content">
+					<Button android:id="@+id/backup_calculate"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_gravity="bottom"
+						android:paddingTop="20sp"
+						android:paddingBottom="20sp"
+						android:text="@string/calculate" />
+					<Button android:id="@+id/backup_download"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_gravity="bottom"
+						android:paddingTop="20sp"
+						android:paddingBottom="20sp"
+						android:text="@string/download" />
+					<ProgressBar
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						style="?android:attr/progressBarStyleHorizontal"
+						android:id="@+id/backup_progressbar"
+						android:max="100" />
+				</RelativeLayout>
+			</LinearLayout>
+		</ScrollView>
+
+	    <LinearLayout
+	        android:id="@+id/processProgressBarContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent_gray"
+            android:layout_gravity="center"
+            android:visibility="invisible">
+			<ProgressBar   
+	            android:id="@+id/processProgressBar"    
+	            style="?android:attr/progressBarStyleLargeInverse"   
+	            android:layout_width="wrap_content"   
+	            android:layout_height="wrap_content"
+	            android:layout_margin="30dp"  
+	            android:layout_gravity="center" />
+		</LinearLayout>
+
+	    <LinearLayout
+	        android:id="@+id/downloadProgressBarContainer"
+	        android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/transparent_gray"
+            android:orientation="horizontal"
+            android:visibility="invisible">
+			<LinearLayout
+			    android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:gravity="center"
+			    android:orientation="vertical" >
+		    
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/downloading" />
+                     
+                <ProgressBar 
+                    android:id="@+id/downloadProgressBar"    
+                    style="?android:attr/progressBarStyleHorizontal"   
+                    android:layout_width="match_parent"   
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"  /> 
+                <TextView 
+                    android:id="@+id/downloadProgress"  
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                
+
+           </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

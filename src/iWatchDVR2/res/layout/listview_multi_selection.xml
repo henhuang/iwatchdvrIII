@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:clickable="false">
+	<TextView android:id="@+id/tag"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:layout_marginLeft="8dp"
+		android:gravity="center_vertical"/>
+
+	<CheckBox android:id="@+id/state"  
+		android:layout_width="wrap_content"  
+		android:layout_height="wrap_content"  
+		android:layout_marginRight="8dp"
+		android:layout_gravity="center_vertical|right"
+		android:focusable="false" /> 
+</LinearLayout>

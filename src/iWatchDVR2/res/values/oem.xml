@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iWatchDVR-R</string>
+
+    <string name="providerName">.DVRProvider</string>
+    <string name="providerAuthority">refactor.remote.iWatchDVR.DVRProvider</string>
+</resources>
